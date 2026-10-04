@@ -1,0 +1,2 @@
+[      80ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[   48251ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/api/jobs/00000000-0000-4000-8000-000000000001/match-narrative:0

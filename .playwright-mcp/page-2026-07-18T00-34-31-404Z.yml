@@ -1,0 +1,135 @@
+- generic [ref=f91e3]:
+  - dialog "Persisted content in Portuguese" [ref=f91e4]:
+    - generic [ref=f91e5]:
+      - generic [ref=f91e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f91e7]
+      - paragraph [ref=f91e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f91e10] [cursor=pointer]
+  - button "Mensagens" [ref=f91e12] [cursor=pointer]: 🔔
+  - generic [ref=f91e13]:
+    - complementary "Side menu" [ref=f91e14]:
+      - generic [ref=f91e15]:
+        - generic [ref=f91e16]:
+          - generic [ref=f91e17]: GR
+          - button "Pin menu" [ref=f91e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:34 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 11 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f91e20]:
+      - generic [ref=f91e21]:
+        - generic [ref=f91e22]:
+          - generic [ref=f91e23]: workspace · career graph
+          - heading "Profession track" [level=1] [ref=f91e24]
+          - paragraph [ref=f91e25]: From your current role to your target role in the same field. Each node is a profession — click to see details, prerequisites, and the associated technical track.
+        - generic [ref=f91e26]:
+          - button "Export PDF" [ref=f91e27] [cursor=pointer]
+          - link "Weekly plan →" [ref=f91e28] [cursor=pointer]:
+            - /url: /dashboard/weekly-plan
+      - navigation [ref=f91e29]:
+        - link "Overview" [ref=f91e30] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f91e31] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Progresso" [ref=f91e32] [cursor=pointer]:
+          - /url: /dashboard/roadmap/progress
+        - link "Histórico" [ref=f91e33] [cursor=pointer]:
+          - /url: /dashboard/roadmap/history
+        - link "Jobs" [ref=f91e34] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f91e35] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f91e36]:
+        - generic [ref=f91e37]:
+          - generic [ref=f91e38]: career time machine
+          - generic [ref=f91e39]: Desenvolvedor Web FullStack · Junior → Desenvolvedor Web FullStack · Pleno
+        - generic [ref=f91e40]:
+          - generic [ref=f91e41]:
+            - generic [ref=f91e42]: completion
+            - generic [ref=f91e43]: 0%
+          - generic [ref=f91e45]:
+            - generic [ref=f91e46]: ETA to goal
+            - generic [ref=f91e47]: 40 wk.
+            - generic [ref=f91e48]: ≈ 2027-04-24
+          - generic [ref=f91e49]:
+            - generic [ref=f91e50]: estimated hours
+            - generic [ref=f91e51]: 0 / 320h
+            - generic [ref=f91e52]: "pace: 8h/week"
+          - generic [ref=f91e53]:
+            - generic [ref=f91e54]: next focus
+            - generic [ref=f91e55]: Desenvolvedor Web FullStack · Pleno
+            - generic [ref=f91e56]: demand score · 0
+      - generic [ref=f91e57]:
+        - generic [ref=f91e58]:
+          - generic [ref=f91e59]:
+            - generic [ref=f91e61]: Completed / current
+            - generic [ref=f91e63]: In progress
+            - generic [ref=f91e65]: Recommended
+            - generic [ref=f91e67]: Available
+            - generic [ref=f91e69]: Locked
+            - generic [ref=f91e72]: Critical path
+            - generic [ref=f91e74]: Adjacent specialization
+          - generic [ref=f91e78]:
+            - generic [ref=f91e79]: Drag to move · scroll to zoom · click a node to open the panel on the right
+            - generic [ref=f91e80]: 2 nodes · 2 connections
+        - complementary [ref=f91e81]:
+          - generic [ref=f91e82]:
+            - heading "Choose a profession on the map" [level=3] [ref=f91e83]
+            - paragraph [ref=f91e84]: See the role description, the previous role on the track, and when available the recommended technical track (skills and resources).
+      - generic [ref=f91e85]:
+        - generic [ref=f91e86]:
+          - generic [ref=f91e87]: AI mentor · context-aware
+          - heading "Stuck? Ask the mentor" [level=3] [ref=f91e88]
+          - paragraph [ref=f91e89]: AI reads your roadmap, finds gaps, and suggests personalized micro-challenges. Mentor off or unavailable? We use deterministic heuristics in the same format.
+        - generic [ref=f91e90]:
+          - 'textbox "E.g.: stuck on Kubernetes, Ingress vs LoadBalancer" [ref=f91e91]'
+          - button "Send" [ref=f91e92] [cursor=pointer]
+      - link "← Back to home" [ref=f91e94] [cursor=pointer]:
+        - /url: /dashboard/personal

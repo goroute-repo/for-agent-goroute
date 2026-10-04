@@ -1,0 +1,12 @@
+[      80ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[      80ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[     195ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[     319ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[     346ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  109006ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/css/select2.png:0
+[  114898ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  114955ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  114998ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  115045ms] [ERROR] Access to XMLHttpRequest at 'https://reports-ai.mobilemed.com.br/provider' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3000/empresa/1:0
+[  115073ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://reports-ai.mobilemed.com.br/provider:0
+[  116257ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:3000/empresa/1:0

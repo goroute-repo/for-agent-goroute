@@ -1,0 +1,72 @@
+[     487ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Desktop/Mobilemed/Portal_financeiro_mobilemed/mm-finance-contract-frontend/.angular/cache/19.2.15/financeiro-interface/vite/deps/chunk-IOZ5DFWJ.js?v=588264d3:15061
+[    2419ms] [WARNING] Error while trying to use the following icon from the Manifest: https://login.dev.mobilemed.com.br/logo192.png (Download error or resource isn't a valid image) @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1f7hggcghb070bjuut9h5pe2bv&state=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=0aSODFoINKRDFMYIFiDfroDQ7kIqbHF5TqJ_KjAXKsI&code_challenge_method=S256&nonce=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2:0
+[    2549ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1f7hggcghb070bjuut9h5pe2bv&state=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=0aSODFoINKRDFMYIFiDfroDQ7kIqbHF5TqJ_KjAXKsI&code_challenge_method=S256&nonce=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2:0
+[    2549ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg:0
+[    2555ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376528
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376689
+[    2563ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1f7hggcghb070bjuut9h5pe2bv&state=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=0aSODFoINKRDFMYIFiDfroDQ7kIqbHF5TqJ_KjAXKsI&code_challenge_method=S256&nonce=YjZxWWxNVTBPNHBqc3Jrczg0Q0N-VHdCdURGSWxJTnFfRjlNNXN2an5VTkN2:0
+[    2563ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp:0
+[    2564ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:375887
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376050
+[    3294ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://gateway.dev.mobilemed.com.br/oauth/us-east-1_mwP64E3Ch/mobilemed/authorize:0
+[    3304ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/:0
+[    3304ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp:0
+[    3305ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:375887
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376050
+[    3307ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/:0
+[    3308ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg:0
+[    3311ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376528
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376689
+[    4543ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info.
+Error
+    at J (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:3418)
+    at pt (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:17209)
+    at y.wt [as locale] (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:16988)
+    at https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:74428:8 @ https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:660
+[    4595ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    4917ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://laudos.mobilemed.com.br/login?t=1789587943008:0
+[    5038ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://gateway-sa.mobilemed.com.br/portal-api/exame/classificacoes/anexo:0
+[    5521ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info.
+Error
+    at J (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:3418)
+    at pt (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:17209)
+    at y.wt [as locale] (https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:661:16988)
+    at https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:74428:8 @ https://laudos.mobilemed.com.br/assets/js/dependencies-aada6f5a45.min.js:660
+[    5586ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    5859ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://laudos.mobilemed.com.br/login?t=1789587943900:0

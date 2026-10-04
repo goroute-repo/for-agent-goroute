@@ -1,0 +1,73 @@
+---
+description: >-
+  Após implementar ou alterar UI no goroute-frontend, o agente (persona Q.A. / Developer)
+  DEVE subir npm start e validar com Playwright MCP (global no Cursor).
+  Nenhuma dependência Playwright no package.json do frontend.
+globs: goroute-frontend/**/*
+alwaysApply: false
+---
+
+# Frontend — validação obrigatória com Playwright MCP (GoRoute)
+
+Detalhes: `.agent/testing.md`, `.agent/personas/qa.md` e `AGENTS.md`.
+
+**Personas:** Developer implementa + Vitest; **Q.A.** fecha o gate com Playwright MCP (ou `e2e/`).
+
+## Não negociável (Definition of Done para UI)
+
+Tarefa **não está concluída** até cumprir **todos** os itens:
+
+1. **Implementar** a mudança em `goroute-frontend/`.
+2. **Testes unitários** — criar/atualizar `*.spec.ts` e rodar:
+   ```bash
+   cd goroute-frontend && npm test
+   ```
+3. **Subir a app local** (o agente executa; não pedir ao usuário se puder rodar):
+   ```bash
+   cd goroute-frontend && npm start
+   ```
+   - Rodar em **background** se ainda não estiver ativa em `http://localhost:4200`.
+   - Usar `environment.ts` + proxy local — não homolog/prod.
+4. **Playwright MCP** — usar ferramentas MCP `playwright` para:
+   - navegar ao fluxo/tela alterados;
+   - exercitar happy path e pelo menos um cenário de erro/validação;
+   - reportar bugs encontrados e corrigir antes de encerrar.
+5. **Reforçar Vitest** — cenários que o MCP expôs devem virar ou atualizar `*.spec.ts`.
+6. **Declarar no resumo** o que foi validado no browser (rotas, ações, resultado) — veredito Q.A. PASS/FAIL.
+
+## Proibido
+
+- Adicionar `@playwright/test`, `playwright`, scripts `test:e2e` ou `playwright.config.ts` em `goroute-frontend/`.
+- Marcar feature/update de UI como pronto **sem** passo MCP (salvo MCP indisponível — ver abaixo).
+- Expandir Cypress; validar fluxos novos via MCP + Vitest (ou suite `e2e/` na raiz).
+- Testar UI contra homolog/prod por padrão.
+
+## Playwright MCP (externo ao frontend)
+
+- Config **global**: `~/.cursor/mcp.json` (Windows: `%USERPROFILE%\.cursor\mcp.json`).
+- Suite versionada cross-stack: pasta `e2e/` na raiz do monorepo (não no Angular).
+- **Não** commitar credenciais; **não** instalar Playwright no `package.json` do Angular.
+
+```json
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    }
+  }
+}
+```
+
+## Se Playwright MCP não estiver disponível
+
+1. Informar explicitamente que o MCP não está configurado ou ativo (Settings → MCP).
+2. Listar o que **não** foi validado no browser.
+3. Ainda assim executar `npm test` (Vitest); preferir `e2e/` se a stack estiver no ar.
+4. Veredito Q.A. **BLOCKED** ou **FAIL** parcial — **não** afirmar E2E completo.
+
+## Parar se detectar
+
+- Resposta "implementado/pronto" em mudança de UI sem evidência de MCP/`e2e` ou sem declaração de indisponibilidade.
+- `package.json` do frontend alterado para incluir Playwright.
+- App não acessível em `localhost:4200` e agente não tentou subir `npm start`.

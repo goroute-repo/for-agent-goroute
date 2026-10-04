@@ -1,0 +1,325 @@
+- generic [ref=e3]:
+  - generic:
+    - dialog "Cookies and privacy":
+      - generic [ref=e5]:
+        - generic [ref=e6]: Privacy
+        - heading "Cookies and privacy" [level=2] [ref=e7]
+        - paragraph [ref=e8]: We use essential cookies for sign-in and security. Optional analytics cookies help improve the platform — only enabled with your consent.
+        - link "Cookie policy" [ref=e9] [cursor=pointer]:
+          - /url: /legal/cookies
+        - generic [ref=e10]:
+          - button "Accept all" [ref=e11] [cursor=pointer]
+          - button "Essential only" [ref=e12] [cursor=pointer]
+          - button "Customize" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - link "Skip to content" [ref=e15] [cursor=pointer]:
+      - /url: "#conteudo"
+    - complementary "Side menu" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: GR
+          - button "Pin menu" [ref=e20] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+          - link "Login":
+            - /url: /login
+          - link "Company login":
+            - /url: /login/empresa
+        - region "Weather & clock":
+          - generic:
+            - generic: 04:30 PM
+            - generic: Sat, Jul 04
+            - generic: Loading weather…
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - generic [ref=e22]:
+      - generic:
+        - banner [ref=e24]:
+          - link "GoRoute — home" [ref=e25] [cursor=pointer]:
+            - /url: "#conteudo"
+            - text: GoRoute
+          - navigation "Sections" [ref=e26]:
+            - link "Pain" [ref=e27] [cursor=pointer]:
+              - /url: "#numeros"
+            - link "Context" [ref=e28] [cursor=pointer]:
+              - /url: "#contexto"
+            - link "Who" [ref=e29] [cursor=pointer]:
+              - /url: "#publico"
+            - link "Join" [ref=e30] [cursor=pointer]:
+              - /url: "#convite"
+            - link "Voices" [ref=e31] [cursor=pointer]:
+              - /url: "#citacoes"
+          - generic [ref=e32]: graph active
+        - complementary: drag · zoom · explore
+        - main:
+          - region "Your next decision":
+            - heading "Your next decision" [level=1]:
+              - generic: trajectory
+              - generic: Your next
+              - generic: decision
+            - generic [ref=e34]:
+              - paragraph [ref=e35]:
+                - text: A recommendation engine that matches
+                - emphasis [ref=e36]: open roles right now
+                - text: with
+                - emphasis [ref=e37]: real promotion paths
+                - text: — not a generic course list.
+              - generic [ref=e38]:
+                - link "Map legend" [ref=e39] [cursor=pointer]:
+                  - /url: "#legend"
+                - link "Target audience" [ref=e40] [cursor=pointer]:
+                  - /url: "#publico"
+              - paragraph [ref=e41]: The graph covers the entire screen — use empty space or this panel to interact.
+            - generic [ref=e42]:
+              - generic [ref=e43]: 48M
+              - generic [ref=e44]: professionals in Brazil TAM · data-driven roadmap
+          - region "The pain in numbers":
+            - generic: 01 · friction
+            - heading "The pain in numbers" [level=2]
+            - generic [ref=e45]:
+              - article [ref=e46]:
+                - generic [ref=e47]: 75%
+                - paragraph [ref=e48]:
+                  - text: without clarity on the
+                  - strong [ref=e49]: next 3 steps
+                  - text: (Gartner, 2023).
+              - article [ref=e50]:
+                - generic [ref=e51]: 62%
+                - paragraph [ref=e52]: millennials and Gen Z anxious due to lack of direction.
+              - article [ref=e53]:
+                - generic [ref=e54]: 18 mo
+                - paragraph [ref=e55]:
+                  - text: average time to switch fields · an estimated
+                  - strong [ref=e56]: R$ 40k+
+                  - text: lost to indecision.
+          - region "The background is the product":
+            - generic: 02 · map
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - heading "The background is the product" [level=2] [ref=e59]
+                - paragraph [ref=e60]: Each color is a branch. From the center, areas and specializations emerge — pull a node and watch the whole branch reorganize.
+              - generic "Graph color legend" [ref=e61]:
+                - generic [ref=e62]: Start
+                - generic [ref=e63]: Tech
+                - generic [ref=e64]: Data
+                - generic [ref=e65]: Product
+                - generic [ref=e66]: Business
+                - generic [ref=e67]: Health
+                - generic [ref=e68]: Creative
+          - region "Target audience":
+            - generic: 03 · reach
+            - heading "Target audience" [level=2]
+            - paragraph: TAM · SAM · SOM — data narrative, not self-promo.
+            - generic [ref=e69]:
+              - article [ref=e70]:
+                - heading "Young 18–25" [level=3] [ref=e71]
+                - generic [ref=e72]: 14M
+                - paragraph [ref=e73]: First job, internship, or switching majors.
+              - article [ref=e74]:
+                - heading "Early 25–35" [level=3] [ref=e75]
+                - generic [ref=e76]: 22M
+                - paragraph [ref=e77]: Stagnation, promotion, or stack switch.
+              - article [ref=e78]:
+                - heading "Leadership 35–50" [level=3] [ref=e79]
+                - generic [ref=e80]: 8M
+                - paragraph [ref=e81]: Director-level growth, org politics, and technical depth.
+              - article [ref=e82]:
+                - heading "Repositioning" [level=3] [ref=e83]
+                - generic [ref=e84]: 4M/ano
+                - paragraph [ref=e85]: Career transition — e.g., admin → data.
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Total TAM
+                - text: ~48M
+              - generic [ref=e89]:
+                - generic [ref=e90]: Digital SAM
+                - text: ~15M
+              - generic [ref=e91]:
+                - generic [ref=e92]: Year 1 SOM
+                - text: 150k
+            - table [ref=e94]:
+              - rowgroup [ref=e95]:
+                - row "Segment TAM Behavior" [ref=e96]:
+                  - columnheader "Segment" [ref=e97]
+                  - columnheader "TAM" [ref=e98]
+                  - columnheader "Behavior" [ref=e99]
+              - rowgroup [ref=e100]:
+                - row "Young (18–25) 14M First job, internship, or course transition." [ref=e101]:
+                  - cell "Young (18–25)" [ref=e102]
+                  - cell "14M" [ref=e103]:
+                    - generic [ref=e104]: 14M
+                  - cell "First job, internship, or course transition." [ref=e105]
+                - row "Early career (25–35) 22M Stagnation, promotion, or stack change." [ref=e106]:
+                  - cell "Early career (25–35)" [ref=e107]
+                  - cell "22M" [ref=e108]:
+                    - generic [ref=e109]: 22M
+                  - cell "Stagnation, promotion, or stack change." [ref=e110]
+                - row "Managers & leaders (35–50) 8M Move toward director roles; politics and technical gaps." [ref=e111]:
+                  - cell "Managers & leaders (35–50)" [ref=e112]
+                  - cell "8M" [ref=e113]:
+                    - generic [ref=e114]: 8M
+                  - cell "Move toward director roles; politics and technical gaps." [ref=e115]
+                - row "Repositioning / transition 4M / year Laid off or switching fields (e.g., admin → data)." [ref=e116]:
+                  - cell "Repositioning / transition" [ref=e117]
+                  - cell "4M / year" [ref=e118]:
+                    - generic [ref=e119]: 4M / year
+                  - cell "Laid off or switching fields (e.g., admin → data)." [ref=e120]
+          - region "Call to action — join now":
+            - generic: 04 · invite
+            - heading "Call to action — join now" [level=2]
+            - generic [ref=e121]:
+              - article [ref=e122]:
+                - paragraph [ref=e123]: "If you’re a professional:"
+                - button "Create your roadmap for free" [ref=e124] [cursor=pointer]
+                - paragraph [ref=e125]: Show your skills, track your growth, and let the right opportunities find you.
+              - article [ref=e126]:
+                - paragraph [ref=e127]: "If you’re a company:"
+                - button "Post your first job" [ref=e128] [cursor=pointer]
+                - paragraph [ref=e129]: Test match quality. When you’re ready to automate, talk to us about API integration.
+          - region "Lines that tell our story":
+            - generic: 05 · pulse
+            - heading "Lines that tell our story" [level=2]
+            - generic [ref=e130]:
+              - figure [ref=e131]:
+                - blockquote [ref=e132]: Stop sending résumés into the void. Build your professional roadmap and let the right companies find you. GoRoute — your map, your opportunities.
+              - figure [ref=e133]:
+                - blockquote [ref=e134]: Tired of résumés that don’t reflect reality? Post jobs manually or integrate via API. Meet GoRoute.
+              - figure [ref=e135]:
+                - blockquote [ref=e136]: "GoRoute was born from a real pain: professionals without direction and companies without real visibility into skills. We built the bridge."
+          - contentinfo "Site footer" [ref=e138]:
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - link "GoRoute — home" [ref=e143] [cursor=pointer]:
+                    - /url: /
+                    - text: GoRoute
+                  - paragraph [ref=e144]: GoRoute — career paths with market evidence./No guesswork.
+                - navigation "On-page shortcuts" [ref=e145]:
+                  - generic [ref=e146]: Explore
+                  - list [ref=e147]:
+                    - listitem [ref=e148]:
+                      - link "About" [ref=e149] [cursor=pointer]:
+                        - /url: /about
+                        - text: About
+                    - listitem [ref=e151]:
+                      - link "Pain" [ref=e152] [cursor=pointer]:
+                        - /url: /#numeros
+                        - text: Pain
+                    - listitem [ref=e154]:
+                      - link "Context" [ref=e155] [cursor=pointer]:
+                        - /url: /#contexto
+                        - text: Context
+                    - listitem [ref=e157]:
+                      - link "Who" [ref=e158] [cursor=pointer]:
+                        - /url: /#publico
+                        - text: Who
+                    - listitem [ref=e160]:
+                      - link "Map legend" [ref=e161] [cursor=pointer]:
+                        - /url: /#legend
+                        - text: Map legend
+                    - listitem [ref=e163]:
+                      - link "Join" [ref=e164] [cursor=pointer]:
+                        - /url: /#convite
+                        - text: Join
+                    - listitem [ref=e166]:
+                      - link "Voices" [ref=e167] [cursor=pointer]:
+                        - /url: /#citacoes
+                        - text: Voices
+                - navigation "Legal documents" [ref=e169]:
+                  - generic [ref=e170]: Legal
+                  - list [ref=e171]:
+                    - listitem [ref=e172]:
+                      - link "Terms of use" [ref=e173] [cursor=pointer]:
+                        - /url: /legal/termos
+                        - text: Terms of use
+                    - listitem [ref=e175]:
+                      - link "Privacy policy" [ref=e176] [cursor=pointer]:
+                        - /url: /legal/privacidade
+                        - text: Privacy policy
+                    - listitem [ref=e178]:
+                      - link "DPA (companies)" [ref=e179] [cursor=pointer]:
+                        - /url: /legal/dpa
+                        - text: DPA (companies)
+                    - listitem [ref=e181]:
+                      - link "Talent pool" [ref=e182] [cursor=pointer]:
+                        - /url: /legal/banco-talentos
+                        - text: Talent pool
+                    - listitem [ref=e184]:
+                      - link "Cookies" [ref=e185] [cursor=pointer]:
+                        - /url: /legal/cookies
+                        - text: Cookies
+                - navigation "Same sections as the side menu" [ref=e187]:
+                  - generic [ref=e188]: Menu tabs
+                  - list [ref=e189]:
+                    - listitem [ref=e190]:
+                      - link "Home" [ref=e191] [cursor=pointer]:
+                        - /url: /#conteudo
+                        - text: Home
+                    - listitem [ref=e193]:
+                      - link "About" [ref=e194] [cursor=pointer]:
+                        - /url: /about
+                        - text: About
+                    - listitem [ref=e196]:
+                      - link "Professionals" [ref=e197] [cursor=pointer]:
+                        - /url: /#contexto
+                        - text: Professionals
+                    - listitem [ref=e199]:
+                      - link "Company login" [ref=e200] [cursor=pointer]:
+                        - /url: /login/empresa
+                        - text: Company login
+                - generic [ref=e202]:
+                  - generic [ref=e207]: Interactive map
+                  - generic [ref=e208]: Drag nodes · zoom · reveal branches
+              - generic [ref=e209]:
+                - generic [ref=e210]: Social
+                - navigation "Social networks" [ref=e211]:
+                  - link "GitHub" [ref=e212] [cursor=pointer]:
+                    - /url: https://github.com/
+                    - img [ref=e213]
+                    - generic [ref=e215]: GitHub
+                  - link "LinkedIn" [ref=e216] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/
+                    - img [ref=e217]
+                    - generic [ref=e219]: LinkedIn
+                  - link "Instagram" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.instagram.com/
+                    - img [ref=e221]
+                    - generic [ref=e223]: Instagram
+                  - link "X" [ref=e224] [cursor=pointer]:
+                    - /url: https://x.com/
+                    - img [ref=e225]
+                    - generic [ref=e227]: X
+              - generic [ref=e228]:
+                - paragraph [ref=e229]: © 2026 GoRoute — data-informed career paths
+                - button "Back to top" [ref=e230] [cursor=pointer]:
+                  - generic [ref=e231]: ↑
+                  - generic [ref=e232]: Back to top

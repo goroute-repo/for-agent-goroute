@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": [
+        "scripts/playwright-mcp.mjs",
+        "--browser=chromium",
+        "--allowed-hosts=localhost,127.0.0.1"
+      ]
+    }
+  }
+}

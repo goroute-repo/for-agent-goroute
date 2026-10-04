@@ -1,0 +1,65 @@
+{
+  "exportedAt": "2026-07-17T23:38:32.024Z",
+  "subject": "professional",
+  "userId": "68ce8281-688a-4542-b8cd-04ec6d52f301",
+  "profile": {
+    "fullName": "Smoke QA",
+    "headline": "Desenvolvedor Web",
+    "bio": null,
+    "location": "São Paulo — SP",
+    "city": "São Paulo",
+    "cityLabel": "São Paulo — SP",
+    "postalCode": "01310100",
+    "streetNumber": null,
+    "cpf": null,
+    "rg": null,
+    "altEmail": null,
+    "phone": null,
+    "emergencyPhone": null,
+    "emergencyContactName": null,
+    "goal": "Desenvolvedor Web Sênior",
+    "workPreference": "remote",
+    "areasOfInterest": [],
+    "careerCategorySlug": "it",
+    "currentRoleSlug": "desenvolvedor-web-junior",
+    "targetRoleSlug": "desenvolvedor-web-senior",
+    "courses": [],
+    "portfolioLinks": [],
+    "academicHistory": [],
+    "resumeFileName": null,
+    "hasResume": false,
+    "resumeUploadedAt": null,
+    "billing": {
+      "fullName": null,
+      "cpfCnpjMasked": null,
+      "hasCpfCnpj": false
+    },
+    "talentPoolOptIn": false,
+    "talentPoolConsentAt": null,
+    "talentPoolConsentVersion": null,
+    "matchWebhookUrl": null
+  },
+  "skills": [
+    {
+      "skillSlug": "javascript",
+      "level": "intermediate"
+    },
+    {
+      "skillSlug": "frontend",
+      "level": "beginner"
+    }
+  ],
+  "aiSettings": {
+    "mentorMode": "off",
+    "byokProvider": null,
+    "hasApiKey": false,
+    "lgpdConsentAt": null,
+    "lgpdConsentVersion": null
+  },
+  "journey": {
+    "exportedAt": "2026-07-17T23:38:32.024Z",
+    "userId": "68ce8281-688a-4542-b8cd-04ec6d52f301",
+    "events": [],
+    "snapshots": []
+  }
+}

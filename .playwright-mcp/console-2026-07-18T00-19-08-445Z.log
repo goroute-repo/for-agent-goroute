@@ -1,0 +1,3 @@
+[     111ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[   48635ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:4200/dashboard/settings:0
+[   53025ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:4200/api/settings/ai:0

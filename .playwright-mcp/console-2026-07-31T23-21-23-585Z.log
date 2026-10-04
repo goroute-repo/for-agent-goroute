@@ -1,0 +1,48 @@
+[     499ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[     500ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[    2813ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[    2876ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    2878ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[    3834ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:9002/preferencia/lista:0
+[    3884ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[    3884ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[    3943ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[    4029ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    4052ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[    4165ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[    4166ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[    4207ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[    4213ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    4215ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[    4378ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[    4876ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/logo.png:0
+[    4878ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/fundo.jpg:0
+[    5241ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    5242ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[    5478ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    6400ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    6401ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    7614ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    7829ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    7829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   20440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   20718ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   22239ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   22239ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   22780ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   22780ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   23061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   24096ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   24096ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0

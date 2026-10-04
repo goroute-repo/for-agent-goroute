@@ -1,0 +1,89 @@
+- generic [ref=f23e3]:
+  - alert [ref=f23e74]:
+    - generic [ref=f23e75]: ✓
+    - generic [ref=f23e76]:
+      - generic [ref=f23e77]: Success
+      - paragraph [ref=f23e78]: LGPD export downloaded.
+    - button "Close" [ref=f23e79] [cursor=pointer]: ×
+  - button "Mensagens" [ref=f23e12] [cursor=pointer]: 🔔
+  - generic [ref=f23e13]:
+    - complementary "Side menu" [ref=f23e14]:
+      - generic [ref=f23e15]:
+        - generic [ref=f23e16]:
+          - generic [ref=f23e17]: GR
+          - button "Pin menu" [ref=f23e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:38 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f23e20]:
+      - generic [ref=f23e22]:
+        - generic [ref=f23e23]: workspace · account
+        - heading "Settings" [level=1] [ref=f23e24]
+        - paragraph [ref=f23e25]: Profile, career, AI mentor, and security — each tab saves independently.
+      - navigation "Settings sections" [ref=f23e26]:
+        - button "Profile" [ref=f23e27] [cursor=pointer]
+        - button "Personal data" [ref=f23e28] [cursor=pointer]
+        - button "Career & résumé" [ref=f23e29] [cursor=pointer]
+        - button "Billing" [ref=f23e30] [cursor=pointer]
+        - button "Track" [ref=f23e31] [cursor=pointer]
+        - button "AI mentor" [ref=f23e32] [cursor=pointer]
+        - button "Security" [ref=f23e33] [cursor=pointer]
+      - generic [ref=f23e65]:
+        - heading "Two-factor authentication (MFA)" [level=2] [ref=f23e66]
+        - paragraph [ref=f23e67]: TOTP protects your account even if your password leaks. Changes apply immediately in the auth service.
+        - button "Set up MFA" [ref=f23e68] [cursor=pointer]
+      - generic [ref=f23e69]:
+        - heading "Privacy & LGPD" [level=2] [ref=f23e70]
+        - paragraph [ref=f23e71]: Download a copy of your data stored on the platform (profile, skills, journey, and AI preferences — no BYOK key).
+        - button "Export my data (JSON)" [ref=f23e72] [cursor=pointer]
+        - paragraph [ref=f23e73]: Permanent account deletion is planned (SPEC-19 / RS-04 P1) and is not available in this environment yet.
+      - link "← Back" [ref=f23e64] [cursor=pointer]:
+        - /url: /dashboard/personal

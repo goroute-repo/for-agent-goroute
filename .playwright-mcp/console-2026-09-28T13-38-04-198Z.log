@@ -1,0 +1,84 @@
+[  128787ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Desktop/Mobilemed/Notification_service/mm-core-notification-frontend/.angular/cache/19.2.27/mm-core-notification-frontend/vite/deps/chunk-FP3YL25C.js?v=0a0d966f:15226
+[  140344ms] [WARNING] Error while trying to use the following icon from the Manifest: https://login.dev.mobilemed.com.br/logo192.png (Download error or resource isn't a valid image) @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1e0i9nd461pheucgi8r51di006&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=FE5Jtf2uCePk1DJ1HsTWzqe5uBtdC9p6vpJua6s0tQA&code_challenge_method=S256&nonce=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  140403ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1e0i9nd461pheucgi8r51di006&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=FE5Jtf2uCePk1DJ1HsTWzqe5uBtdC9p6vpJua6s0tQA&code_challenge_method=S256&nonce=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  140403ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp:0
+[  140403ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/authorization?response_type=code&client_id=1e0i9nd461pheucgi8r51di006&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=FE5Jtf2uCePk1DJ1HsTWzqe5uBtdC9p6vpJua6s0tQA&code_challenge_method=S256&nonce=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  140403ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg:0
+[  140405ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:375887
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376050
+[  140405ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376528
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376689
+[  140618ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/?client_id=1e0i9nd461pheucgi8r51di006&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=b3cbeb41-3339-45e8-b7cd-381a48c1fa26&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  140618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp:0
+[  140623ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/?client_id=1e0i9nd461pheucgi8r51di006&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=b3cbeb41-3339-45e8-b7cd-381a48c1fa26&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  140623ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg:0
+[  140623ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:375887
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376050
+[  140623ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376528
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376689
+[  140718ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/?client_id=1e0i9nd461pheucgi8r51di006&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=b3cbeb41-3339-45e8-b7cd-381a48c1fa26&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  155236ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/totp?client_id=1e0i9nd461pheucgi8r51di006&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=b3cbeb41-3339-45e8-b7cd-381a48c1fa26&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  155236ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/fundo.webp:0
+[  155237ms] [ERROR] Access to fetch at 'https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg' from origin 'https://login.dev.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login.dev.mobilemed.com.br/us-east-1_mwP64E3Ch/mobilemed/totp?client_id=1e0i9nd461pheucgi8r51di006&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=b3cbeb41-3339-45e8-b7cd-381a48c1fa26&state=QjBlT3JzMF8uY0JMTnAycVRNYUhzS1NJeU9Kd29IWFBCQW1NMm15X2pRUS1l:0
+[  155237ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://mobilemed-tenant-assets-dev.s3.us-east-1.amazonaws.com/producao/tenants/mobilemed/logo.svg:0
+[  155250ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:375887
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376050
+[  155251ms] TypeError: Failed to fetch
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376528
+    at c (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238547)
+    at Generator.<anonymous> (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:239884)
+    at Generator.next (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:238910)
+    at He (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244538)
+    at a (https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244742)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244803
+    at new Promise (<anonymous>)
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:244682
+    at https://login.dev.mobilemed.com.br/static/js/main.007e7a41.js:2:376689
+[  174581ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://gateway.dev.mobilemed.com.br/oauth/us-east-1_mwP64E3Ch/mobilemed/login/challenge/totp:0
+[  188638ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Desktop/Mobilemed/Notification_service/mm-core-notification-frontend/.angular/cache/19.2.27/mm-core-notification-frontend/vite/deps/chunk-FP3YL25C.js?v=0a0d966f:15226
+[  492626ms] [INFO] Autofocus processing was blocked because a document already has a focused element. @ http://localhost:4200/events/new:0

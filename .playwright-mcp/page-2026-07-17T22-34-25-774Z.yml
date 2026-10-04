@@ -1,0 +1,96 @@
+- generic [ref=e4]:
+  - link "Skip to form" [ref=e5] [cursor=pointer]:
+    - /url: "#auth-main"
+  - complementary "Side menu" [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: GR
+        - button "Pin menu" [ref=e10] [cursor=pointer]
+      - navigation "Pages":
+        - link "Home":
+          - /url: /#conteudo
+        - link "About":
+          - /url: /about
+        - link "Pricing":
+          - /url: /pricing
+        - link "Login":
+          - /url: /login
+        - link "Company login":
+          - /url: /login/empresa
+      - region "Weather & clock":
+        - generic:
+          - generic: 07:34 PM
+          - generic: Fri, Jul 17
+          - generic: Weather unavailable
+      - region "Preferences":
+        - generic:
+          - generic: Theme
+          - generic:
+            - combobox:
+              - option "Light" [selected]
+              - option "Dark"
+          - generic: Language
+          - generic:
+            - combobox:
+              - option "Portuguese"
+              - option "English" [selected]
+              - option "Spanish"
+              - option "German"
+      - region "Social networks":
+        - link "GitHub":
+          - /url: https://github.com/
+          - text: GH
+        - link "LinkedIn":
+          - /url: https://www.linkedin.com/
+          - text: in
+        - link "Instagram":
+          - /url: https://www.instagram.com/
+          - text: IG
+        - link "X":
+          - /url: https://x.com/
+  - generic [ref=e12]:
+    - generic:
+      - complementary "Pick up where you left off.":
+        - generic: GoRoute · secure account
+        - heading "Pick up where you left off." [level=1]
+        - paragraph: "Plan your next career move with clarity: concrete steps, market context, and tailored suggestions."
+        - list:
+          - listitem:
+            - generic:
+              - img
+            - generic:
+              - generic: Clear next steps
+              - generic: Less guessing—you see what to do now and what comes next.
+          - listitem:
+            - generic:
+              - img
+            - generic:
+              - generic: Living context
+              - generic: Signals that help you decide calmly—without scattered spreadsheets.
+          - listitem:
+            - generic:
+              - img
+            - generic:
+              - generic: Privacy at your pace
+              - generic: Strong password today; extra verification when you choose to turn it on.
+        - generic:
+          - generic: Second factor
+          - paragraph: If your account has MFA enabled, after your password you will enter the 6-digit code from your authenticator app.
+        - link "Back to home" [ref=e13] [cursor=pointer]:
+          - /url: /
+      - main [ref=e14]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic [ref=e20]: 02 · recovery
+            - heading "Reset your password" [level=2] [ref=e21]
+            - paragraph [ref=e22]: Enter your email. If an account exists, we will send a reset link.
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: Email
+              - textbox "Email" [ref=e26]:
+                - /placeholder: you@company.com
+              - paragraph [ref=e30]: This field is required.
+            - button "Send link" [active] [ref=e27] [cursor=pointer]
+          - paragraph [ref=e28]:
+            - link "Sign in" [ref=e29] [cursor=pointer]:
+              - /url: /login

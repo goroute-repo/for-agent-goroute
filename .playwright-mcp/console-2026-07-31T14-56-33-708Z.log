@@ -1,0 +1,168 @@
+[     407ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[     407ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[   10909ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[   11024ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   11029ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[   11400ms] [ERROR] Error: transition superseded
+    at w [as $get] (http://localhost:3000/assets/js/dependencies.js:483:16282)
+    at Object.invoke (http://localhost:3000/assets/js/dependencies.js:72:264)
+    at http://localhost:3000/assets/js/dependencies.js:74:58
+    at Object.d [as get] (http://localhost:3000/assets/js/dependencies.js:71:197)
+    at http://localhost:3000/assets/js/dependencies.js:484:513
+    at Object.invoke (http://localhost:3000/assets/js/dependencies.js:72:264)
+    at http://localhost:3000/assets/js/dependencies.js:74:213
+    at r (http://localhost:3000/assets/js/dependencies.js:35:76)
+    at fb (http://localhost:3000/assets/js/dependencies.js:74:192)
+    at c (http://localhost:3000/assets/js/dependencies.js:49:57) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[   11678ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[   14799ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/logo.png:0
+[   14802ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/fundo.jpg:0
+[   33742ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:9002/authenticate:0
+[  108997ms] [ERROR] Error: [$compile:nonassign] http://errors.angularjs.org/1.8.3/$compile/nonassign?p0=undefined&p1=imgParams&p2=anexo
+    at http://localhost:3000/assets/js/dependencies.js:34:168
+    at u (http://localhost:3000/assets/js/dependencies.js:119:108)
+    at n (http://localhost:3000/assets/js/dependencies.js:119:184)
+    at d (http://localhost:3000/assets/js/dependencies.js:165:361)
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:263)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) @ http://localhost:3000/assets/js/dependencies.js:155
+[  117678ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  117678ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  117769ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  117911ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  117932ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  120715ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  750623ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:9002/usuario/lista/grupo:0
+[  750631ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:36250:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[  750792ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  750793ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  751002ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  751013ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  751014ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  751120ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  751120ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  751183ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  751197ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  751199ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  751383ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[  751793ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/logo.png:0
+[  751819ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/fundo.jpg:0
+[  879638ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  879638ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  879716ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  879726ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  879727ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  880438ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  890214ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[  998995ms] [ERROR] Possibly unhandled rejection: undefined @ http://localhost:3000/assets/js/dependencies.js:155
+[ 1000013ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[ 1000014ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[ 1000988ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[ 1001139ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[ 1001156ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[ 1002594ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:9002/preferencia/lista:0
+[ 1002602ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:9002/pesquisapadrao/407:0
+[ 1002603ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:2212:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[ 1002609ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:9002/usuario/407:0
+[ 1002610ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:34963:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[ 1003000ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[ 1003000ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[ 1004042ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[ 1004156ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[ 1004157ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[ 1004494ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[ 1004494ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[ 1005680ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[ 1005815ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[ 1005816ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[ 1006117ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[ 1006901ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/logo.png:0
+[ 1006904ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://mobilemed-portal-homolog.s3.us-east-1.amazonaws.com/producao/dominio/localhost/fundo.jpg:0
+[ 1037617ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[ 1051672ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[ 1051672ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[ 1051769ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[ 1051793ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[ 1051794ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[ 1052225ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[ 1897542ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoZgt:0
+[ 1902502ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoauJ:0
+[ 1909861ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uochR:0
+[ 1917202ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoeUQ:0
+[ 1924557ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uogH6:0
+[ 1931899ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoi43:0
+[ 1939256ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uojsm:0
+[ 1946604ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uolfi:0
+[ 1953957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uonSW:0
+[ 1961310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uopFR:0
+[ 1968683ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uor2J:0
+[ 1976034ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uosrW:0
+[ 1983398ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoueN:0
+[ 1990733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uowRR:0
+[ 1998087ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uoyE1:0
+[ 2005449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uo-0x:0
+[ 2012816ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uo_p-:0
+[ 2020169ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-up1d4:0
+[ 2027529ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-up3P_:0
+[ 2034879ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-up5C_:0
+[ 2042238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-up6_p:0
+[ 2049589ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-up8op:0
+[ 2056941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upAbg:0
+[ 2064314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upCOY:0
+[ 2071669ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upEBl:0
+[ 2079012ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upF-g:0
+[ 2086361ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upHnO:0
+[ 2093721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upJaD:0
+[ 2101084ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upLNE:0
+[ 2108430ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upNAH:0
+[ 2115785ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upOz3:0
+[ 2123126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upQlz:0
+[ 2130481ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upSYg:0
+[ 2137840ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upULb:0
+[ 2145206ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upW8a:0
+[ 2152569ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upXxg:0
+[ 2159904ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upZkj:0
+[ 2167250ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upbXL:0
+[ 2174608ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-updK7:0
+[ 2181978ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upf75:0
+[ 2189333ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upgwG:0
+[ 2196685ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upijA:0
+[ 2204028ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upkW2:0
+[ 2211375ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upmIn:0
+[ 2218717ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upo5a:0
+[ 2226069ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uppuI:0
+[ 2233426ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uprhA:0
+[ 2240785ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-uptU8:0
+[ 2248121ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upvH5:0
+[ 2255484ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-upx3j:0
+[ 7125600ms] [ERROR] Possibly unhandled rejection: {"data":null,"status":-1,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","cache":{},"headers":{"Accept":"text/html"},"url":"views/empresa/table/empresaTable.html"},"statusText":"","xhrStatus":"error"} @ http://localhost:3000/assets/js/dependencies.js:155
+[ 7125610ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/views/empresa/table/empresaTable.html:0
+[ 7143018ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[ 7143019ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[ 7148640ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[ 7148701ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[ 7148702ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[ 7149573ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goroute.local/schemas/plan.schema.json",
+  "title": "GoRouteAgentPlan",
+  "description": "Plano estruturado da persona Planner para o monorepo GoRoute. Fases são executadas pela persona Developer e validadas pela persona Q.A.",
+  "type": "object",
+  "required": ["id", "objective", "status", "phases", "context"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Slug da tarefa, ex: crud-produto"
+    },
+    "objective": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in_review", "approved", "implementing", "done"]
+    },
+    "activePersona": {
+      "type": "string",
+      "enum": ["planner", "developer", "qa"],
+      "description": "Persona dona do estágio atual do plano"
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "approvedAt": { "type": "string", "format": "date-time" },
+    "maxReviewCycles": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3
+    },
+    "context": {
+      "type": "object",
+      "required": ["repoPaths", "stack"],
+      "properties": {
+        "repoPaths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Pastas/arquivos que a IA deve ler antes de planejar"
+        },
+        "stack": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "goroute-frontend",
+              "goroute-api",
+              "goroute-service-auth",
+              "goroute-platform-admin",
+              "goroute-mentor-agent",
+              "goroute-nlp",
+              "goroute-mobile",
+              "e2e"
+            ]
+          },
+          "description": "Pacotes GoRoute afetados"
+        },
+        "constraints": { "type": "array", "items": { "type": "string" } },
+        "outOfScope": { "type": "array", "items": { "type": "string" } },
+        "testStrategy": {
+          "type": "string",
+          "description": "Resumo da estratégia de teste para handoff à persona Q.A."
+        },
+        "advisory": {
+          "type": "object",
+          "description": "Pareceres do Planner Council (obrigatório em produto/UI/mobile)",
+          "properties": {
+            "uxUiPath": {
+              "type": "string",
+              "description": "Path relativo a advisory/ux-ui.md"
+            },
+            "growthPath": {
+              "type": "string",
+              "description": "Path relativo a advisory/growth-marketing.md ou N/A"
+            },
+            "reconciledInNotes": {
+              "type": "boolean",
+              "description": "true se notes.md documenta aceito/rejeitado do council"
+            }
+          }
+        }
+      }
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "goal", "acceptanceCriteria", "files"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "goal": { "type": "string" },
+          "ownerPersona": {
+            "type": "string",
+            "enum": ["planner", "developer", "qa"],
+            "default": "developer",
+            "description": "Quem executa a fase (quase sempre developer; qa para gates de validação)"
+          },
+          "dependsOn": { "type": "array", "items": { "type": "string" } },
+          "files": {
+            "type": "object",
+            "properties": {
+              "create": { "type": "array", "items": { "type": "string" } },
+              "modify": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "acceptanceCriteria": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "validation": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Comandos/checks executados pela persona Q.A. (ex: npm test, Playwright MCP)"
+          },
+          "risks": { "type": "array", "items": { "type": "string" } },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "in_review",
+              "approved",
+              "implemented",
+              "qa_passed",
+              "skipped",
+              "blocked"
+            ]
+          }
+        }
+      }
+    },
+    "reviewHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cycle": { "type": "integer" },
+          "codexReport": { "type": "string" },
+          "claudeReport": { "type": "string" },
+          "codexReconcileReport": { "type": "string" },
+          "qaVerdict": {
+            "type": "string",
+            "enum": ["pass", "fail", "blocked", "skipped"]
+          },
+          "decision": {
+            "type": "string",
+            "enum": ["approved", "needs_changes", "rejected"]
+          }
+        }
+      }
+    }
+  }
+}

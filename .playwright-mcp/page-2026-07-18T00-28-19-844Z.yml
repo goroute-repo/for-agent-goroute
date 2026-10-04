@@ -1,0 +1,90 @@
+- generic [ref=f89e3]:
+  - button "Mensagens" [ref=f89e12] [cursor=pointer]: 🔔
+  - generic [ref=f89e13]:
+    - complementary "Side menu" [ref=f89e14]:
+      - generic [ref=f89e15]:
+        - generic [ref=f89e16]:
+          - generic [ref=f89e17]: GR
+          - button "Pin menu" [ref=f89e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:28 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 11 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f89e20]:
+      - generic [ref=f89e21]:
+        - generic [ref=f89e22]:
+          - generic [ref=f89e23]: workspace · marketplace
+          - heading "Jobs with real match" [level=1] [ref=f89e24]
+          - paragraph [ref=f89e25]: Published jobs ranked by match with your roadmap skills — no noise, no empty keywords.
+        - link "Adjust roadmap" [ref=f89e27] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+      - navigation [ref=f89e28]:
+        - link "Overview" [ref=f89e29] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f89e30] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Browse jobs" [ref=f89e31] [cursor=pointer]:
+          - /url: /dashboard/jobs?tab=browse
+        - link "Invites" [ref=f89e32] [cursor=pointer]:
+          - /url: /dashboard/jobs?tab=invites
+        - link "My week" [ref=f89e33] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f89e35]:
+        - generic [ref=f89e36]:
+          - generic [ref=f89e37]: Search
+          - textbox "Search" [ref=f89e38]:
+            - /placeholder: job title or company
+        - generic [ref=f89e39]:
+          - checkbox "Only 100% eligible jobs" [ref=f89e40]
+          - generic [ref=f89e41]: Only 100% eligible jobs
+        - button "Filter" [ref=f89e42] [cursor=pointer]
+      - generic [ref=f89e43]: No published jobs right now — check back soon or refine your roadmap.
+      - link "← Back to home" [ref=f89e46] [cursor=pointer]:
+        - /url: /dashboard/personal

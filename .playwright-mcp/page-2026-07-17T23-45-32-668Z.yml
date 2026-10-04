@@ -1,0 +1,109 @@
+- generic [ref=f36e3]:
+  - dialog "Persisted content in Portuguese" [ref=f36e4]:
+    - generic [ref=f36e5]:
+      - generic [ref=f36e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f36e7]
+      - paragraph [ref=f36e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f36e10] [cursor=pointer]
+  - button "Mensagens" [ref=f36e12] [cursor=pointer]: 🔔
+  - generic [ref=f36e13]:
+    - complementary "Side menu" [ref=f36e14]:
+      - generic [ref=f36e15]:
+        - generic [ref=f36e16]:
+          - generic [ref=f36e17]: GR
+          - button "Pin menu" [ref=f36e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:45 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f36e20]:
+      - generic [ref=f36e21]:
+        - generic [ref=f36e22]:
+          - generic [ref=f36e23]: workspace · career graph
+          - heading "Track progress" [level=1] [ref=f36e24]
+          - paragraph [ref=f36e25]: See what is left to reach your target role.
+        - generic [ref=f36e26]:
+          - link "Change goal" [ref=f36e27] [cursor=pointer]:
+            - /url: /dashboard/settings?tab=carreira
+          - link "View full map" [ref=f36e28] [cursor=pointer]:
+            - /url: /dashboard/roadmap
+      - navigation [ref=f36e29]:
+        - link "Overview" [ref=f36e30] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f36e31] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Progresso" [ref=f36e32] [cursor=pointer]:
+          - /url: /dashboard/roadmap/progress
+        - link "Histórico" [ref=f36e33] [cursor=pointer]:
+          - /url: /dashboard/roadmap/history
+        - link "Jobs" [ref=f36e34] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f36e35] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f36e36]:
+        - paragraph [ref=f36e37]: 0%
+        - paragraph [ref=f36e38]: 0 / 1 nodes
+        - generic [ref=f36e40]:
+          - generic [ref=f36e41]:
+            - term [ref=f36e42]: ETA to goal
+            - definition [ref=f36e43]: wk. 40
+          - generic [ref=f36e44]:
+            - term [ref=f36e45]: estimated hours
+            - definition [ref=f36e46]: 0 / 320h
+          - generic [ref=f36e47]:
+            - term [ref=f36e48]: "pace: 8h/week"
+            - definition
+      - generic [ref=f36e49]:
+        - heading "Missing" [level=2] [ref=f36e50]
+        - list [ref=f36e51]:
+          - listitem [ref=f36e52]:
+            - link "Desenvolvedor Web FullStack · Pleno" [ref=f36e53] [cursor=pointer]:
+              - /url: /dashboard/roadmap
+            - generic [ref=f36e54]: recommended

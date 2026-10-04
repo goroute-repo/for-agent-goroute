@@ -1,0 +1,194 @@
+- generic [ref=f3e3]:
+  - generic:
+    - dialog "Cookies and privacy":
+      - generic [ref=f3e5]:
+        - generic [ref=f3e6]: Privacy
+        - heading "Cookies and privacy" [level=2] [ref=f3e7]
+        - paragraph [ref=f3e8]: We use essential cookies for sign-in and security. Optional analytics cookies help improve the platform — only enabled with your consent.
+        - link "Cookie policy" [ref=f3e9] [cursor=pointer]:
+          - /url: /legal/cookies
+        - generic [ref=f3e10]:
+          - button "Accept all" [ref=f3e11] [cursor=pointer]
+          - button "Essential only" [ref=f3e12] [cursor=pointer]
+          - button "Customize" [ref=f3e13] [cursor=pointer]
+  - generic [ref=f3e14]:
+    - link [ref=f3e15] [cursor=pointer]:
+      - /url: "#conteudo"
+    - complementary [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - generic [ref=f3e18]:
+          - generic [ref=f3e19]: GR
+          - button [ref=f3e20] [cursor=pointer]
+        - navigation
+        - generic:
+          - generic:
+            - generic:
+              - combobox:
+                - option [selected]
+                - option
+            - generic:
+              - combobox:
+                - option [selected]
+                - option
+                - option
+                - option
+        - generic:
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - generic [ref=f3e22]:
+      - generic:
+        - banner [ref=f3e24]:
+          - link "GoRoute" [ref=f3e25] [cursor=pointer]:
+            - /url: "#conteudo"
+          - navigation:
+            - link:
+              - /url: "#numeros"
+            - link:
+              - /url: "#contexto"
+            - link:
+              - /url: "#publico"
+            - link:
+              - /url: "#convite"
+            - link:
+              - /url: "#citacoes"
+        - complementary
+        - main:
+          - region:
+            - heading [level=1]
+            - generic [ref=f3e28]:
+              - paragraph
+              - generic [ref=f3e29]:
+                - link [ref=f3e30] [cursor=pointer]:
+                  - /url: "#legend"
+                - link [ref=f3e31] [cursor=pointer]:
+                  - /url: "#publico"
+              - paragraph
+          - region:
+            - heading [level=2]
+            - generic [ref=f3e33]:
+              - article [ref=f3e34]:
+                - generic [ref=f3e35]: 75%
+                - paragraph
+              - article [ref=f3e36]:
+                - generic [ref=f3e37]: 62%
+                - paragraph
+              - article [ref=f3e38]:
+                - generic [ref=f3e39]: 18 mo
+                - paragraph
+          - region:
+            - generic [ref=f3e41]:
+              - heading [level=2]
+              - paragraph
+          - region:
+            - heading [level=2]
+            - paragraph
+            - generic [ref=f3e50]:
+              - article [ref=f3e51]:
+                - heading [level=3]
+                - generic [ref=f3e52]: 14M
+                - paragraph
+              - article [ref=f3e53]:
+                - heading [level=3]
+                - generic [ref=f3e54]: 22M
+                - paragraph
+              - article [ref=f3e55]:
+                - heading [level=3]
+                - generic [ref=f3e56]: 8M
+                - paragraph
+              - article [ref=f3e57]:
+                - heading [level=3]
+                - generic [ref=f3e58]: 4M/ano
+                - paragraph
+            - generic [ref=f3e59]:
+              - generic [ref=f3e60]: ~48M
+              - generic [ref=f3e61]: ~15M
+              - generic [ref=f3e62]: 150k
+            - table [ref=f3e64]:
+              - rowgroup [ref=f3e65]:
+                - row [ref=f3e66]:
+                  - columnheader [ref=f3e67]
+                  - columnheader [ref=f3e68]
+                  - columnheader [ref=f3e69]
+              - rowgroup [ref=f3e70]:
+                - row "14M" [ref=f3e71]:
+                  - cell [ref=f3e72]
+                  - cell "14M" [ref=f3e73]:
+                    - generic [ref=f3e74]: 14M
+                  - cell [ref=f3e75]
+                - row "22M" [ref=f3e76]:
+                  - cell [ref=f3e77]
+                  - cell "22M" [ref=f3e78]:
+                    - generic [ref=f3e79]: 22M
+                  - cell [ref=f3e80]
+                - row "8M" [ref=f3e81]:
+                  - cell [ref=f3e82]
+                  - cell "8M" [ref=f3e83]:
+                    - generic [ref=f3e84]: 8M
+                  - cell [ref=f3e85]
+                - row [ref=f3e86]:
+                  - cell [ref=f3e87]
+                  - cell [ref=f3e88]
+                  - cell [ref=f3e90]
+          - region:
+            - heading [level=2]
+            - generic [ref=f3e91]:
+              - article [ref=f3e92]:
+                - paragraph
+                - button [ref=f3e93] [cursor=pointer]
+                - paragraph
+              - article [ref=f3e94]:
+                - paragraph
+                - button [ref=f3e95] [cursor=pointer]
+                - paragraph
+          - region:
+            - heading [level=2]
+            - generic [ref=f3e96]:
+              - figure [ref=f3e97]:
+                - blockquote
+              - figure [ref=f3e98]:
+                - blockquote
+              - figure [ref=f3e99]:
+                - blockquote
+          - contentinfo [ref=f3e101]:
+            - generic [ref=f3e103]:
+              - generic [ref=f3e104]:
+                - generic [ref=f3e105]:
+                  - generic [ref=f3e106]: GoRoute
+                  - paragraph
+                - navigation [ref=f3e107]:
+                  - list [ref=f3e108]:
+                    - listitem [ref=f3e109]
+                    - listitem [ref=f3e112]
+                    - listitem [ref=f3e115]
+                    - listitem [ref=f3e118]
+                    - listitem [ref=f3e121]
+                    - listitem [ref=f3e124]
+                    - listitem [ref=f3e127]
+                - navigation [ref=f3e130]:
+                  - list [ref=f3e131]:
+                    - listitem [ref=f3e132]
+                    - listitem [ref=f3e135]
+                    - listitem [ref=f3e138]
+                    - listitem [ref=f3e141]
+                    - listitem [ref=f3e144]
+                - navigation [ref=f3e147]:
+                  - list [ref=f3e148]:
+                    - listitem [ref=f3e149]
+                    - listitem [ref=f3e152]
+                    - listitem [ref=f3e155]
+                    - listitem [ref=f3e158]
+              - generic [ref=f3e167]:
+                - navigation
+              - generic [ref=f3e168]:
+                - paragraph
+                - button [ref=f3e169] [cursor=pointer]:
+                  - generic [ref=f3e170]: ↑

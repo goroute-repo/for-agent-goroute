@@ -1,0 +1,116 @@
+- generic [ref=f87e3]:
+  - dialog "Persisted content in Portuguese" [ref=f87e72]:
+    - generic [ref=f87e73]:
+      - generic [ref=f87e74]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f87e75]
+      - paragraph [ref=f87e76]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f87e78] [cursor=pointer]
+  - button "Mensagens" [ref=f87e5] [cursor=pointer]: 🔔
+  - generic [ref=f87e79]:
+    - complementary "Side menu" [ref=f87e80]:
+      - generic [ref=f87e81]:
+        - generic [ref=f87e82]:
+          - generic [ref=f87e83]: GR
+          - button "Pin menu" [ref=f87e84] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:26 PM
+            - generic: Fri, Jul 17
+            - generic: Loading weather…
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f87e86]:
+      - generic [ref=f87e87]:
+        - generic [ref=f87e88]:
+          - generic [ref=f87e89]: workspace · professional
+          - heading "Your dashboard" [level=1] [ref=f87e90]
+          - paragraph [ref=f87e91]: "Your hub to grow with clarity: dynamic roadmap, matched jobs, and an actionable weekly plan — all in one place."
+        - generic [ref=f87e92]:
+          - link "View plans" [ref=f87e93] [cursor=pointer]:
+            - /url: /pricing
+          - link "My week" [ref=f87e94] [cursor=pointer]:
+            - /url: /dashboard/weekly-plan
+      - navigation "Dashboard shortcuts" [ref=f87e95]:
+        - link "Overview" [ref=f87e96] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Roadmap" [ref=f87e97] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Jobs" [ref=f87e98] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f87e99] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+        - link "Plans" [ref=f87e100] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=f87e101]:
+        - article [ref=f87e102]:
+          - generic [ref=f87e103]: 01 · graph
+          - heading "Interactive roadmap" [level=2] [ref=f87e104]
+          - paragraph [ref=f87e105]: See your career path as a graph, with in-demand nodes highlighted in real time.
+          - link "Open roadmap →" [ref=f87e106] [cursor=pointer]:
+            - /url: /dashboard/roadmap
+        - article [ref=f87e107]:
+          - generic [ref=f87e108]: 02 · jobs
+          - heading "Marketplace" [level=2] [ref=f87e109]
+          - paragraph [ref=f87e110]: Published jobs ranked by your real match based on roadmap skills.
+          - link "Browse jobs →" [ref=f87e111] [cursor=pointer]:
+            - /url: /dashboard/jobs
+        - article [ref=f87e112]:
+          - generic [ref=f87e113]: 03 · week
+          - heading "My week" [level=2] [ref=f87e114]
+          - paragraph [ref=f87e115]: "Gamified plan: learn · project · practice. Complete to unlock the next skill."
+          - link "View weekly tasks →" [ref=f87e116] [cursor=pointer]:
+            - /url: /dashboard/weekly-plan
+        - article [ref=f87e117]:
+          - generic [ref=f87e118]: 04 · subscription
+          - heading "Plans" [level=2] [ref=f87e119]
+          - paragraph [ref=f87e120]: Unlock the Weekly Plan and advanced ATS webhooks via Stripe Hosted Checkout.
+          - link "Compare plans →" [ref=f87e121] [cursor=pointer]:
+            - /url: /pricing
+      - generic [ref=f87e122]:
+        - link "← Back to home" [ref=f87e123] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f87e124]: Career paths backed by market evidence — no guesswork.

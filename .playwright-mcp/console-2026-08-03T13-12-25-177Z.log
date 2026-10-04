@@ -1,0 +1,22 @@
+[     622ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[     735ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    1279ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/css/select2.png:0
+[    3118ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    3118ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[    3357ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    4621ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    4621ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    5725ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    6471ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    6471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   13772ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   14025ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   14025ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0

@@ -1,0 +1,56 @@
+[     339ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Desktop/Mobilemed/Portal_financeiro_mobilemed/mm-finance-contract-frontend/.angular/cache/19.2.15/financeiro-interface/vite/deps/chunk-IOZ5DFWJ.js?v=588264d3:15061
+[    2440ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Desktop/Mobilemed/Portal_financeiro_mobilemed/mm-finance-contract-frontend/.angular/cache/19.2.15/financeiro-interface/vite/deps/chunk-IOZ5DFWJ.js?v=588264d3:15061
+[    5337ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?response_type=code&client_id=5ee4lngb14pn8kftfaebseik2d&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=ZOhrM5RZRRQ0GRgbzGHNnrpkIV7x5f7xQyM4_Gf1_wk&code_challenge_method=S256&nonce=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0
+[    5338ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg:0
+[    5338ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?response_type=code&client_id=5ee4lngb14pn8kftfaebseik2d&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=ZOhrM5RZRRQ0GRgbzGHNnrpkIV7x5f7xQyM4_Gf1_wk&code_challenge_method=S256&nonce=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0
+[    5338ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp:0
+[    5341ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377067
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377228
+[    5341ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376426
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376589
+[    5786ms] [WARNING] Error while trying to use the following icon from the Manifest: https://login-homolog.mobilemed.com.br/logo192.png (Download error or resource isn't a valid image) @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?response_type=code&client_id=5ee4lngb14pn8kftfaebseik2d&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid&code_challenge=ZOhrM5RZRRQ0GRgbzGHNnrpkIV7x5f7xQyM4_Gf1_wk&code_challenge_method=S256&nonce=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0
+[    6587ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=5ee4lngb14pn8kftfaebseik2d&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=437f354a-2c38-419c-aecf-359a1c088b96&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0
+[    6587ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp:0
+[    6588ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=5ee4lngb14pn8kftfaebseik2d&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=437f354a-2c38-419c-aecf-359a1c088b96&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0
+[    6588ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg:0
+[    6601ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376426
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376589
+[    6601ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377067
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377228
+[    6699ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=5ee4lngb14pn8kftfaebseik2d&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&authorization_code=437f354a-2c38-419c-aecf-359a1c088b96&state=azBaNDVRc1ZYRkxqaWpHYzZxMXV3QjVzclV2ZDJrNFhLVW51YmNCWFphRHE3:0

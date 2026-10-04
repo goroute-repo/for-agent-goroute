@@ -1,0 +1,133 @@
+- generic [ref=f88e3]:
+  - button "Mensagens" [ref=f88e12] [cursor=pointer]: 🔔
+  - generic [ref=f88e13]:
+    - complementary "Side menu" [ref=f88e14]:
+      - generic [ref=f88e15]:
+        - generic [ref=f88e16]:
+          - generic [ref=f88e17]: GR
+          - button "Pin menu" [ref=f88e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:27 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 11 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f88e20]:
+      - generic [ref=f88e22]:
+        - generic [ref=f88e23]: workspace · account
+        - heading "Settings" [level=1] [ref=f88e24]
+        - paragraph [ref=f88e25]: Profile, career, AI mentor, and security — each tab saves independently.
+      - navigation "Settings sections" [ref=f88e26]:
+        - button "Profile" [ref=f88e27] [cursor=pointer]
+        - button "Personal data" [ref=f88e28] [cursor=pointer]
+        - button "Career & résumé" [ref=f88e29] [cursor=pointer]
+        - button "Billing" [ref=f88e30] [cursor=pointer]
+        - button "Track" [ref=f88e31] [cursor=pointer]
+        - button "AI mentor" [ref=f88e32] [cursor=pointer]
+        - button "Security" [ref=f88e33] [cursor=pointer]
+      - generic [ref=f88e34]:
+        - heading "Category and roles" [level=2] [ref=f88e35]
+        - paragraph [ref=f88e36]: Defines the profession track on the roadmap (current role → target role in the same category).
+        - generic [ref=f88e37]:
+          - generic [ref=f88e38]: Category
+          - combobox "Category" [ref=f88e39]:
+            - option "—"
+            - option "Administração"
+            - option "Medicina e saúde"
+            - option "TI · Tecnologia" [selected]
+            - option "Manutenção"
+            - option "Recursos humanos"
+            - option "Financeiro"
+            - option "Comercial e vendas"
+            - option "Jurídico"
+            - option "Engenharia"
+            - option "Educação"
+            - option "Logística"
+            - option "Produção e industrial"
+            - option "Atendimento ao cliente"
+            - option "Marketing"
+            - option "Design e criativo"
+        - generic [ref=f88e40]:
+          - generic [ref=f88e41]: Current role
+          - combobox "Current role" [ref=f88e42]:
+            - option "—"
+            - option "Desenvolvedor Web FullStack · Junior" [selected]
+            - option "Desenvolvedor Web FullStack · Pleno"
+            - option "Desenvolvedor Web Fullstack · Senior"
+            - option "Tech Lead"
+            - option "Engenheiro DevOps"
+            - option "Analista de Dados"
+            - option "Desenvolvedor Desktop · Senior"
+            - option "Desenvolvedor Desktop · Pleno"
+            - option "Desenvolvedor Desktop · Junior"
+        - generic [ref=f88e43]:
+          - generic [ref=f88e44]: Target role
+          - combobox "Target role" [ref=f88e45]:
+            - option "—"
+            - option "Desenvolvedor Web FullStack · Junior"
+            - option "Desenvolvedor Web FullStack · Pleno"
+            - option "Desenvolvedor Web Fullstack · Senior" [selected]
+            - option "Tech Lead"
+            - option "Engenheiro DevOps"
+            - option "Analista de Dados"
+            - option "Desenvolvedor Desktop · Senior"
+            - option "Desenvolvedor Desktop · Pleno"
+            - option "Desenvolvedor Desktop · Junior"
+        - generic [ref=f88e46]:
+          - button "Simulate (Career Twin)" [ref=f88e47] [cursor=pointer]
+          - button "Save category and roles" [ref=f88e48] [cursor=pointer]
+      - generic [ref=f88e49]:
+        - heading "Technical goal (skill)" [level=2] [ref=f88e50]
+        - paragraph [ref=f88e51]: "Optional: supporting skill for the technical track linked to a role."
+        - generic [ref=f88e52]:
+          - generic [ref=f88e53]: Goal skill slug
+          - textbox "Goal skill slug" [ref=f88e54]:
+            - /placeholder: e.g. react, devops, nodejs
+        - button "Save technical goal" [ref=f88e55] [cursor=pointer]
+      - link "← Back" [ref=f88e57] [cursor=pointer]:
+        - /url: /dashboard/personal

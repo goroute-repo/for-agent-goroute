@@ -1,0 +1,178 @@
+[    4744ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[    4798ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    7145ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    7145ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[    7418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    8576ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    8576ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    9778ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   10192ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:9001/preferencia/lista:0
+[   10320ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[   10438ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   10790ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:9001/logout:0
+[   10792ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'data')
+    at http://localhost:3000/assets/js/app.js:16656:82
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[   10793ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'data')
+    at http://localhost:3000/assets/js/app.js:17270:82
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onload (http://localhost:3000/assets/js/dependencies.js:140:464) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[   10914ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[   10925ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   11191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/images/dominio/localhost/logo.jpg:0
+[   11191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/images/dominio/localhost/fundo.jpg:0
+[   11202ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/images/dominio/logo.jpg:0
+[   11261ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login?t=1785762633494:0
+[   12130ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   12130ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[   12790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   13258ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   13258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   14310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   15121ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   15121ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   46815ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&response_type=code&scope=openid&state=5ca5590c42fd4161bf7e53fa299e71ca&code_challenge=KhAJUlK2HJZeEZC1TPfHfVWshs6HDZdanes2FfSMDlA&code_challenge_method=S256&login_hint=diegodev%40mobilemed.com.br&response_mode=query:0
+[   46815ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp:0
+[   46817ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376426
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376589
+[   46834ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&response_type=code&scope=openid&state=5ca5590c42fd4161bf7e53fa299e71ca&code_challenge=KhAJUlK2HJZeEZC1TPfHfVWshs6HDZdanes2FfSMDlA&code_challenge_method=S256&login_hint=diegodev%40mobilemed.com.br&response_mode=query:0
+[   46834ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg:0
+[   46839ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377067
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377228
+[   47241ms] [WARNING] Error while trying to use the following icon from the Manifest: https://login-homolog.mobilemed.com.br/logo192.png (Download error or resource isn't a valid image) @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/authorization?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&response_type=code&scope=openid&state=5ca5590c42fd4161bf7e53fa299e71ca&code_challenge=KhAJUlK2HJZeEZC1TPfHfVWshs6HDZdanes2FfSMDlA&code_challenge_method=S256&login_hint=diegodev%40mobilemed.com.br&response_mode=query:0
+[   47526ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&authorization_code=1a21b4f1-9e98-4383-a1cd-56be4cc5984d&state=5ca5590c42fd4161bf7e53fa299e71ca&login_hint=diegodev%40mobilemed.com.br:0
+[   47526ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp:0
+[   47526ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&authorization_code=1a21b4f1-9e98-4383-a1cd-56be4cc5984d&state=5ca5590c42fd4161bf7e53fa299e71ca&login_hint=diegodev%40mobilemed.com.br:0
+[   47527ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg:0
+[   47538ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376426
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376589
+[   47538ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377067
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377228
+[   47623ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&authorization_code=1a21b4f1-9e98-4383-a1cd-56be4cc5984d&state=5ca5590c42fd4161bf7e53fa299e71ca&login_hint=diegodev%40mobilemed.com.br:0
+[   54304ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/totp?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&authorization_code=1a21b4f1-9e98-4383-a1cd-56be4cc5984d&state=5ca5590c42fd4161bf7e53fa299e71ca&login_hint=diegodev%40mobilemed.com.br:0
+[   54304ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/fundo.webp:0
+[   54304ms] [ERROR] Access to fetch at 'https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg' from origin 'https://login-homolog.mobilemed.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://login-homolog.mobilemed.com.br/us-east-1_1U5uO23y7/mobilemed/totp?client_id=6ga5jscpo84o8bn529eaddgl8p&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&authorization_code=1a21b4f1-9e98-4383-a1cd-56be4cc5984d&state=5ca5590c42fd4161bf7e53fa299e71ca&login_hint=diegodev%40mobilemed.com.br:0
+[   54304ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://files-homolog.mobilemed.com.br/producao/tenants/mobilemed/logo.svg:0
+[   54321ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376426
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:376589
+[   54321ms] TypeError: Failed to fetch
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377067
+    at c (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239236)
+    at Generator.<anonymous> (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:240573)
+    at Generator.next (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:239599)
+    at qe (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245227)
+    at a (https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245431)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245492
+    at new Promise (<anonymous>)
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:245371
+    at https://login-homolog.mobilemed.com.br/static/js/main.4c21974e.js:2:377228
+[   67067ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[   67135ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   69472ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   69472ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[   69741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   70759ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   71939ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   71939ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   72092ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   72092ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   73100ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   73821ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   73822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   91913ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   92176ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   92177ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   94254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   94868ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   94869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  100305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  100554ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  100555ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  107703ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  107959ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  107959ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  118965ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  119207ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  119207ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0

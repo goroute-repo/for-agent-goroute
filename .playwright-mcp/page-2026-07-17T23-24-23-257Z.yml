@@ -1,0 +1,83 @@
+- generic [ref=f19e3]:
+  - button "Mensagens" [ref=f19e12] [cursor=pointer]: 🔔
+  - generic [ref=f19e13]:
+    - complementary "Side menu" [ref=f19e14]:
+      - generic [ref=f19e15]:
+        - generic [ref=f19e16]:
+          - generic [ref=f19e17]: GR
+          - button "Pin menu" [ref=f19e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:24 PM
+            - generic: Fri, Jul 17
+            - generic: 17°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f19e20]:
+      - generic [ref=f19e22]:
+        - generic [ref=f19e23]: workspace · account
+        - heading "Settings" [level=1] [ref=f19e24]
+        - paragraph [ref=f19e25]: Profile, career, AI mentor, and security — each tab saves independently.
+      - navigation "Settings sections" [ref=f19e26]:
+        - button "Profile" [ref=f19e27] [cursor=pointer]
+        - button "Personal data" [ref=f19e28] [cursor=pointer]
+        - button "Career & résumé" [ref=f19e29] [cursor=pointer]
+        - button "Billing" [ref=f19e30] [cursor=pointer]
+        - button "Track" [ref=f19e31] [cursor=pointer]
+        - button "AI mentor" [ref=f19e32] [cursor=pointer]
+        - button "Security" [active] [ref=f19e33] [cursor=pointer]
+      - generic [ref=f19e65]:
+        - heading "Two-factor authentication (MFA)" [level=2] [ref=f19e66]
+        - paragraph [ref=f19e67]: TOTP protects your account even if your password leaks. Changes apply immediately in the auth service.
+        - button "Set up MFA" [ref=f19e68] [cursor=pointer]
+      - generic [ref=f19e69]:
+        - heading "Privacy & LGPD" [level=2] [ref=f19e70]
+        - paragraph [ref=f19e71]: Download a copy of your data stored on the platform (profile, skills, journey, and AI preferences — no BYOK key).
+        - button "Export my data (JSON)" [ref=f19e72] [cursor=pointer]
+        - paragraph [ref=f19e73]: Permanent account deletion is planned (SPEC-19 / RS-04 P1) and is not available in this environment yet.
+      - link "← Back" [ref=f19e64] [cursor=pointer]:
+        - /url: /dashboard/personal

@@ -1,0 +1,114 @@
+- generic [ref=f23e3]:
+  - dialog "Persisted content in Portuguese" [ref=f23e4]:
+    - generic [ref=f23e5]:
+      - generic [ref=f23e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f23e7]
+      - paragraph [ref=f23e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f23e10] [cursor=pointer]
+  - button "Mensagens" [ref=f23e12] [cursor=pointer]: 🔔
+  - generic [ref=f23e13]:
+    - complementary "Side menu" [ref=f23e14]:
+      - generic [ref=f23e15]:
+        - generic [ref=f23e16]:
+          - generic [ref=f23e17]: GR
+          - button "Pin menu" [ref=f23e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:37 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f23e20]:
+      - generic [ref=f23e22]:
+        - generic [ref=f23e23]: workspace · account
+        - heading "Settings" [level=1] [ref=f23e24]
+        - paragraph [ref=f23e25]: Profile, career, AI mentor, and security — each tab saves independently.
+      - navigation "Settings sections" [ref=f23e26]:
+        - button "Profile" [ref=f23e27] [cursor=pointer]
+        - button "Personal data" [ref=f23e28] [cursor=pointer]
+        - button "Career & résumé" [ref=f23e29] [cursor=pointer]
+        - button "Billing" [ref=f23e30] [cursor=pointer]
+        - button "Track" [ref=f23e31] [cursor=pointer]
+        - button "AI mentor" [ref=f23e32] [cursor=pointer]
+        - button "Security" [ref=f23e33] [cursor=pointer]
+      - generic [ref=f23e34]:
+        - heading "Profile" [level=2] [ref=f23e35]
+        - paragraph [ref=f23e36]:
+          - text: "Name:"
+          - strong [ref=f23e37]: Smoke QA
+        - generic [ref=f23e38]:
+          - generic [ref=f23e39]: Headline
+          - textbox "Headline" [ref=f23e40]: Desenvolvedor Web
+        - generic [ref=f23e41]:
+          - generic [ref=f23e42]: Bio
+          - textbox "Bio" [ref=f23e43]
+        - generic [ref=f23e44]:
+          - generic [ref=f23e45]:
+            - generic [ref=f23e46]: Home ZIP code
+            - textbox "Home ZIP code São Paulo — SP" [ref=f23e47]: 01310-100
+            - generic [ref=f23e48]: São Paulo — SP
+          - generic [ref=f23e49]:
+            - generic [ref=f23e50]: Number
+            - textbox "Number" [ref=f23e51]:
+              - /placeholder: e.g. 42, apt 10
+        - button "Save address" [ref=f23e52] [cursor=pointer]
+        - paragraph [ref=f23e53]: "City: São Paulo — SP · Target role: Desenvolvedor Web Sênior"
+        - button "Save profile" [ref=f23e54] [cursor=pointer]
+        - generic [ref=f23e55]:
+          - generic [ref=f23e56]: LGPD · optional
+          - heading "Talent pool" [level=3] [ref=f23e57]
+          - paragraph [ref=f23e58]:
+            - text: Lets partner companies see your profile for invites without a prior application.
+            - link "Consent terms" [ref=f23e59] [cursor=pointer]:
+              - /url: /legal/banco-talentos
+            - text: .
+          - generic [ref=f23e60]:
+            - checkbox "I authorize joining the Talent Pool per the specific terms." [ref=f23e61]
+            - generic [ref=f23e62]: I authorize joining the Talent Pool per the specific terms.
+      - link "← Back" [ref=f23e64] [cursor=pointer]:
+        - /url: /dashboard/personal

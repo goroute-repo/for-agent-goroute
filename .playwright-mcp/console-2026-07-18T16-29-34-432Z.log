@@ -1,0 +1,9 @@
+[     193ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[     369ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/public/career-graph-preview:0
+[     371ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/goroute-auth/session/bootstrap:0
+[     371ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/weather?latitude=-23.5505&longitude=-46.6333:0
+[   95264ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[   95544ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/public/career-graph-preview:0
+[   95546ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/weather?latitude=-23.5505&longitude=-46.6333:0
+[   98359ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[  115400ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:4200/api/billing/subscription:0

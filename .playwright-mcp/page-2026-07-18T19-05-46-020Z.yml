@@ -1,0 +1,110 @@
+- generic [ref=f22e17]:
+  - complementary [ref=f22e18]:
+    - generic [ref=f22e19]:
+      - generic [ref=f22e20]: GR Admin
+      - generic [ref=f22e21]: READ_ONLY
+    - navigation "Operação" [ref=f22e22]:
+      - paragraph [ref=f22e23]: Operação
+      - link "Dashboard" [ref=f22e24] [cursor=pointer]:
+        - /url: /dashboard
+      - paragraph [ref=f22e25]: Compliance
+      - link "Auditoria" [ref=f22e26] [cursor=pointer]:
+        - /url: /audit
+    - generic [ref=f22e27]:
+      - paragraph [ref=f22e28]: smoke-qa@goroute.local
+      - paragraph [ref=f22e29]: "Papel: READ_ONLY"
+      - button "Sair" [ref=f22e30] [cursor=pointer]
+  - main [ref=f22e31]:
+    - generic [ref=f22e32]:
+      - generic "Dashboard" [ref=f22e33]:
+        - generic [ref=f22e34]:
+          - generic [ref=f22e35]:
+            - paragraph [ref=f22e36]: Operação
+            - heading "Dashboard" [level=1] [ref=f22e37]
+            - paragraph [ref=f22e38]: Snapshot da plataforma e tendência do ano selecionado.
+          - generic [ref=f22e39]:
+            - generic [ref=f22e40]:
+              - text: Ano
+              - combobox "Ano" [ref=f22e41]:
+                - option "2026" [selected]
+                - option "2025"
+                - option "2024"
+            - button "Atualizar" [ref=f22e42] [cursor=pointer]
+      - generic [ref=f22e43]:
+        - article [ref=f22e44]:
+          - generic [ref=f22e45]: Profissionais
+          - generic [ref=f22e46]: "3"
+        - article [ref=f22e47]:
+          - generic [ref=f22e48]: Empresas
+          - generic [ref=f22e49]: "1"
+        - article [ref=f22e50]:
+          - generic [ref=f22e51]: Vagas (total)
+        - article [ref=f22e52]:
+          - generic [ref=f22e53]: Banco de talentos
+          - generic [ref=f22e54]: "0"
+        - article [ref=f22e55]:
+          - generic [ref=f22e56]: Assinaturas ativas
+          - generic [ref=f22e57]: "2"
+      - generic [ref=f22e58]:
+        - heading "Cadastros por mês (2026)" [level=2] [ref=f22e59]
+        - generic [ref=f22e60]:
+          - generic [ref=f22e61]:
+            - heading "Novos usuários" [level=3] [ref=f22e62]
+            - generic [ref=f22e63]:
+              - generic [ref=f22e64]: 06/2026
+              - generic [ref=f22e67]: "3"
+          - generic [ref=f22e68]:
+            - heading "Novas empresas" [level=3] [ref=f22e69]
+            - generic [ref=f22e70]:
+              - generic [ref=f22e71]: 07/2026
+              - generic [ref=f22e74]: "1"
+          - heading "Novas vagas" [level=3] [ref=f22e76]
+          - heading "Vagas acumuladas" [level=3] [ref=f22e78]
+          - generic [ref=f22e79]:
+            - heading "Novas assinaturas" [level=3] [ref=f22e80]
+            - generic [ref=f22e81]:
+              - generic [ref=f22e82]: 06/2026
+              - generic [ref=f22e85]: "1"
+            - generic [ref=f22e86]:
+              - generic [ref=f22e87]: 07/2026
+              - generic [ref=f22e90]: "2"
+          - generic [ref=f22e91]:
+            - heading "Faturamento (pagamentos)" [level=3] [ref=f22e92]
+            - paragraph [ref=f22e93]: Sem pagamentos registrados (webhook invoice.paid).
+      - generic [ref=f22e94]:
+        - heading "Resumo por ano" [level=2] [ref=f22e95]
+        - table [ref=f22e96]:
+          - rowgroup [ref=f22e97]:
+            - row "Ano Usuários Empresas Vagas Assinaturas Faturamento" [ref=f22e98]:
+              - columnheader "Ano" [ref=f22e99]
+              - columnheader "Usuários" [ref=f22e100]
+              - columnheader "Empresas" [ref=f22e101]
+              - columnheader "Vagas" [ref=f22e102]
+              - columnheader "Assinaturas" [ref=f22e103]
+              - columnheader "Faturamento" [ref=f22e104]
+          - rowgroup [ref=f22e105]:
+            - row "2026 3 1 0 3 R$ 0,00" [ref=f22e106]:
+              - cell "2026" [ref=f22e107]
+              - cell "3" [ref=f22e108]
+              - cell "1" [ref=f22e109]
+              - cell "0" [ref=f22e110]
+              - cell "3" [ref=f22e111]
+              - cell "R$ 0,00" [ref=f22e112]
+      - generic [ref=f22e113]:
+        - generic [ref=f22e114]:
+          - heading "Assinaturas ativas por plano" [level=2] [ref=f22e115]
+          - list [ref=f22e116]:
+            - listitem [ref=f22e117]:
+              - strong [ref=f22e118]: weekly_plan
+              - text: — 2
+        - generic [ref=f22e119]:
+          - heading "Últimos pagamentos" [level=2] [ref=f22e120]
+          - table [ref=f22e121]:
+            - rowgroup [ref=f22e122]:
+              - row "Data Plano Valor" [ref=f22e123]:
+                - columnheader "Data" [ref=f22e124]
+                - columnheader "Plano" [ref=f22e125]
+                - columnheader "Valor" [ref=f22e126]
+            - rowgroup [ref=f22e127]:
+              - row "Nenhum pagamento." [ref=f22e128]:
+                - cell "Nenhum pagamento." [ref=f22e129]

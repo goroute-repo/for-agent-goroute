@@ -1,0 +1,58 @@
+# Stack de dados local para GoRoute (auth + BFF + Neo4j + NLP).
+# Uso: docker compose up -d
+# Neo4j Browser: http://localhost:7474 (neo4j / goroute_neo4j)
+# Bolt: bolt://localhost:7687
+# NLP: http://127.0.0.1:5000/health (localhost bind; internal to compose for BFF)
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: goroute
+      POSTGRES_PASSWORD: goroute
+      POSTGRES_DB: goroute_auth
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U goroute -d goroute_auth']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - '6379:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  neo4j:
+    image: neo4j:5-community
+    ports:
+      - '7474:7474'
+      - '7687:7687'
+    environment:
+      NEO4J_AUTH: neo4j/goroute_neo4j
+    volumes:
+      - neo4j_data:/data
+
+  python-nlp:
+    build: ./goroute-nlp
+    # Host bind localhost only — not LAN-public (SPEC-12 / stage-11). Compose network keeps BFF→NLP.
+    ports:
+      - '127.0.0.1:5000:5000'
+    healthcheck:
+      test: ['CMD-SHELL', 'python -c "import urllib.request; urllib.request.urlopen(\"http://127.0.0.1:5000/health\")"']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+  neo4j_data:
+

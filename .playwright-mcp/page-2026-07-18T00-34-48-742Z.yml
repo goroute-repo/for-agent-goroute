@@ -1,0 +1,128 @@
+- generic [ref=f92e3]:
+  - dialog "Persisted content in Portuguese" [ref=f92e4]:
+    - generic [ref=f92e5]:
+      - generic [ref=f92e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f92e7]
+      - paragraph [ref=f92e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f92e10] [cursor=pointer]
+  - button "Mensagens" [ref=f92e12] [cursor=pointer]: 🔔
+  - generic [ref=f92e13]:
+    - complementary "Side menu" [ref=f92e14]:
+      - generic [ref=f92e15]:
+        - generic [ref=f92e16]:
+          - generic [ref=f92e17]: GR
+          - button "Pin menu" [ref=f92e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:34 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 11 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f92e20]:
+      - generic [ref=f92e21]:
+        - generic [ref=f92e22]:
+          - generic [ref=f92e23]: workspace · pace
+          - heading "My week" [level=1] [ref=f92e24]
+          - paragraph [ref=f92e25]: Weekly plan generated from your next roadmap focus. Complete actions to unlock the next skill automatically.
+        - generic [ref=f92e26]:
+          - button "Recalculate route" [ref=f92e27] [cursor=pointer]
+          - button "Skip week" [ref=f92e28] [cursor=pointer]
+      - navigation [ref=f92e29]:
+        - link "Overview" [ref=f92e30] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Roadmap" [ref=f92e31] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Jobs" [ref=f92e32] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f92e33] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f92e35]:
+        - generic [ref=f92e36]:
+          - generic [ref=f92e37]: this week focus
+          - heading "Desenvolvedor Web FullStack · Pleno" [level=2] [ref=f92e38]
+          - generic [ref=f92e39]: 2026-07-13
+        - generic [ref=f92e40]:
+          - generic [ref=f92e41]: progress
+          - text: 0%
+      - generic [ref=f92e43]:
+        - generic [ref=f92e44]: weekly milestone
+        - 'heading "Marco: dominar Desenvolvedor Web FullStack · Pleno" [level=3] [ref=f92e45]'
+        - paragraph [ref=f92e46]: Conclua as 3 ações da semana para evoluir Desenvolvedor Web FullStack · Pleno no seu roadmap.
+      - generic [ref=f92e47]:
+        - generic [ref=f92e48]: actions
+        - heading "3 actions to complete" [level=2] [ref=f92e49]
+        - list [ref=f92e50]:
+          - listitem [ref=f92e51]:
+            - generic [ref=f92e52] [cursor=pointer]:
+              - checkbox "Learn Aprender Desenvolvedor Web FullStack · Pleno Estude fundamentos de Desenvolvedor Web FullStack · Pleno (curso, docs ou tutorial)." [ref=f92e53]
+              - generic [ref=f92e54]:
+                - generic [ref=f92e55]:
+                  - generic [ref=f92e56]: Learn
+                  - generic [ref=f92e57]: Aprender Desenvolvedor Web FullStack · Pleno
+                - paragraph [ref=f92e58]: Estude fundamentos de Desenvolvedor Web FullStack · Pleno (curso, docs ou tutorial).
+          - listitem [ref=f92e59]:
+            - generic [ref=f92e60] [cursor=pointer]:
+              - checkbox "Project Projeto prático com Desenvolvedor Web FullStack · Pleno Construa um mini-projeto aplicando Desenvolvedor Web FullStack · Pleno no contexto da sua meta." [ref=f92e61]
+              - generic [ref=f92e62]:
+                - generic [ref=f92e63]:
+                  - generic [ref=f92e64]: Project
+                  - generic [ref=f92e65]: Projeto prático com Desenvolvedor Web FullStack · Pleno
+                - paragraph [ref=f92e66]: Construa um mini-projeto aplicando Desenvolvedor Web FullStack · Pleno no contexto da sua meta.
+          - listitem [ref=f92e67]:
+            - generic [ref=f92e68] [cursor=pointer]:
+              - checkbox "Practice Praticar Desenvolvedor Web FullStack · Pleno Exercícios, kata ou desafios curtos para consolidar Desenvolvedor Web FullStack · Pleno." [ref=f92e69]
+              - generic [ref=f92e70]:
+                - generic [ref=f92e71]:
+                  - generic [ref=f92e72]: Practice
+                  - generic [ref=f92e73]: Praticar Desenvolvedor Web FullStack · Pleno
+                - paragraph [ref=f92e74]: Exercícios, kata ou desafios curtos para consolidar Desenvolvedor Web FullStack · Pleno.
+      - generic [ref=f92e75]:
+        - link "← Back to home" [ref=f92e76] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "View updated roadmap →" [ref=f92e77] [cursor=pointer]:
+          - /url: /dashboard/roadmap

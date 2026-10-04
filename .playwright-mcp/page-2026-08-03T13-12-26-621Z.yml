@@ -1,0 +1,337 @@
+- generic [active]:
+  - generic:    
+  - img [ref=f6e2]
+  - banner [ref=f6e4]:
+    - banner [ref=f6e5]:
+      - text:    
+      - generic [ref=f6e6]:
+        - list [ref=f6e7]:
+          - listitem [ref=f6e8]:
+            - button "MobileMed" [ref=f6e9] [cursor=pointer]
+          - listitem "Listagem de exames" [ref=f6e10]:
+            - link "settings" [ref=f6e11] [cursor=pointer]:
+              - /url: /exames
+              - generic [ref=f6e12]: 
+          - listitem "Relatórios" [ref=f6e13]:
+            - link "settings" [ref=f6e14] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f6e15]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Meus exames":
+                    - /url: /relatorio/meus-exames
+                - listitem:
+                  - link "Meu Financeiro":
+                    - /url: /relatorio/meu-financeiro
+                - button "Dashboard BI":
+                  - generic: Dashboard BI
+                - listitem:
+                  - link "Financeiro da Unidade":
+                    - /url: /relatorio/financeiro-empresa
+                - listitem:
+                  - link "Financeiro do Usuário":
+                    - /url: /relatorio/financeiro-usuario
+                - listitem:
+                  - link "Relatório de exames por unidade":
+                    - /url: /relatorio/exames
+                - listitem:
+                  - link "Relatório de exames por residente":
+                    - /url: /relatorio/residente
+                - listitem:
+                  - link "Relatório enviado para a inteligência artificial":
+                    - /url: /relatorio/ia
+                - listitem:
+                  - link "Relatório de exames por médico":
+                    - /url: /relatorio/medicos
+                - listitem:
+                  - link "Relatório de exames por digitador":
+                    - /url: /relatorio/digitador
+                - listitem:
+                  - link "Relatório de exames agrupado":
+                    - /url: /relatorio/exame-agrupado
+                - listitem:
+                  - link "Relatório Pagamento":
+                    - /url: /relatorio/pagamento
+                - listitem:
+                  - link "Listar exames cancelados":
+                    - /url: /cancelados
+                - listitem:
+                  - link "Relatório de exames cancelados":
+                    - /url: /relatorio/exames-cancelados
+                - listitem:
+                  - link "Relatório de exames por SLA":
+                    - /url: /relatorio/exames-sla
+                - listitem:
+                  - link "Relatório de exames justificados":
+                    - /url: /relatorio/exames-justificativa
+                - listitem:
+                  - link "Relatório de status dos exames":
+                    - /url: /relatorio/exames-status
+                - listitem:
+                  - link "Relatório de integração":
+                    - /url: /relatorio/retorno-laudo
+                - listitem:
+                  - link "Relatório de avaliações de séries":
+                    - /url: /relatorio/avaliacao-series
+                - listitem:
+                  - link "Relatório de Peer Review":
+                    - /url: /relatorio/peer-review
+          - button "settings Fale Conosco Licença ANVISA Protocolo de Manchester Tutoriais  Sala do Suporte Portal de Resultados Teamviewer / AnyDesk  Validar laudo Limpar Cache Download Apps " [ref=f6e16] [cursor=pointer]:
+            - link "settings" [ref=f6e17]:
+              - /url: javascript:;
+              - generic [ref=f6e18]: 
+            - generic:
+              - list:
+                - button "Fale Conosco"
+                - button "Licença ANVISA"
+                - button "Protocolo de Manchester"
+                - button "Tutoriais ":
+                  - link "Tutoriais ":
+                    - /url: ""
+                    - text: Tutoriais
+                    - generic: 
+                - button "Sala do Suporte"
+                - button "Portal de Resultados"
+                - button "Teamviewer / AnyDesk ":
+                  - link "Teamviewer / AnyDesk ":
+                    - /url: ""
+                    - text: Teamviewer / AnyDesk
+                    - generic: 
+                - button "Validar laudo"
+                - listitem:
+                  - link "Limpar Cache":
+                    - /url: https://mobilemed.notion.site/Limpeza-de-Cache-1c9d98b0079d8077997bfaac68693a46
+                - button "Download Apps ":
+                  - link "Download Apps ":
+                    - /url: ""
+                    - text: Download Apps
+                    - generic: 
+          - listitem "Administrador" [ref=f6e19]:
+            - link "settings" [ref=f6e20] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f6e21]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link " Permissões":
+                    - /url: /permissao
+                    - generic: 
+                    - text: Permissões
+                - listitem:
+                  - link "Cadastro de Unidades":
+                    - /url: /empresas
+                - listitem:
+                  - link "Vincular empresa":
+                    - /url: /vincular/empresa
+                - listitem:
+                  - link "Copiar Especialidades":
+                    - /url: /copiar/especialidade
+                - listitem:
+                  - link "Gerenciar Máscaras de Unidades":
+                    - /url: /mascaras/empresa/gerenciar
+                - listitem:
+                  - link "Vincular Máscaras de Usuários":
+                    - /url: /copiar/mascara/usuario
+                - listitem:
+                  - link "Gerenciar Máscaras de Usuários":
+                    - /url: /mascaras/usuario/gerenciar
+                - listitem:
+                  - link "Cadastrar Grupo de Usuários":
+                    - /url: /cadastroGrupoUsuario
+                - listitem:
+                  - link "Grupos de Usuários da Unidade":
+                    - /url: /cadastroGrupoUsuarioEmpresa
+                - listitem:
+                  - link "Distribuição Peer Review":
+                    - /url: /peerReview
+                - listitem:
+                  - link "Clonar Peer Review":
+                    - /url: /peerReview/clonar
+          - listitem "Proprietário" [ref=f6e22]:
+            - link "settings" [ref=f6e23] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f6e24]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Adicionar Nova Unidade":
+                    - /url: /empresa/0
+                - listitem:
+                  - link "Criar Grupos":
+                    - /url: /gruposEmpresas
+                - listitem:
+                  - link "Cadastrar PACS Externos":
+                    - /url: pacs-externo
+                - listitem:
+                  - link "Listar PACS por unidade":
+                    - /url: listar-pacs
+                - listitem:
+                  - link "Cadastrar Convênios":
+                    - /url: /convenio
+                - listitem:
+                  - link "Dashboard":
+                    - /url: /dashboard
+                - listitem:
+                  - link "Gerenciar avisos":
+                    - /url: /avisos
+                - listitem:
+                  - link "Pesquisa Padrão":
+                    - /url: /pesquisaPadrao
+                - listitem:
+                  - link "Integrações":
+                    - /url: /integracao
+                - listitem:
+                  - link "White List de IP":
+                    - /url: /whiteListIp
+          - text: 
+          - listitem [ref=f6e25]:
+            - button "Configurações de Frases" [ref=f6e26] [cursor=pointer]:
+              - img [ref=f6e27]
+          - listitem [ref=f6e29]:
+            - link "settings" [ref=f6e30] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f6e31]: 
+            - generic:
+              - list:
+                - text: 
+                - listitem:
+                  - generic: Nenhuma Preferência Salva
+          - listitem [ref=f6e32]:
+            - link " Peer Review" [ref=f6e33] [cursor=pointer]:
+              - /url: /peerReview/listagem
+              - generic [ref=f6e34]: 
+              - generic [ref=f6e35]: Peer Review
+        - generic [ref=f6e36]:
+          - navigation [ref=f6e37]:
+            - button "Digitado" [ref=f6e38] [cursor=pointer]:
+              - strong [ref=f6e39]: Digitado
+            - button "A preparar" [ref=f6e40] [cursor=pointer]:
+              - strong [ref=f6e41]: A preparar
+            - button " Reconvocar" [ref=f6e42] [cursor=pointer]:
+              - strong [ref=f6e43]:
+                - generic [ref=f6e44]: 
+              - strong [ref=f6e45]: Reconvocar
+            - button " Pendências" [ref=f6e46] [cursor=pointer]:
+              - strong [ref=f6e47]:
+                - generic [ref=f6e48]: 
+              - strong [ref=f6e49]: Pendências
+            - button "Meus exames" [ref=f6e50] [cursor=pointer]:
+              - strong [ref=f6e51]: Meus exames
+          - navigation [ref=f6e52]:
+            - button "Diego DEV" [ref=f6e53] [cursor=pointer]:
+              - img "Diego DEV" [ref=f6e54]
+            - menu:
+              - listitem:
+                - link "Preferências":
+                  - /url: "#"
+                  - text:  Preferências
+              - listitem:
+                - link " Minha conta":
+                  - /url: "#"
+                  - generic: 
+                  - text: Minha conta
+              - listitem:
+                - link " Minha Sala":
+                  - /url: "#"
+                  - generic: 
+                  - text: Minha Sala
+              - listitem:
+                - link " Avisos":
+                  - /url: "#"
+                  - generic: 
+                  - text: Avisos
+              - listitem:
+                - link " Trocar perfil":
+                  - /url: "#"
+                  - generic: 
+                  - text: Trocar perfil
+              - listitem:
+                - link " Sair":
+                  - /url: /logout?t=1785762745986
+                  - generic: 
+                  - text: Sair
+              - listitem:
+                - link "Inglês":
+                  - /url: javascript:;
+                  - text: Inglês
+              - listitem:
+                - link "Espanhol":
+                  - /url: javascript:;
+                  - text: Espanhol
+      - text:                      
+  - generic [ref=f6e58]:
+    - generic [ref=f6e59]:
+      - heading [level=5] [ref=f6e60]: Lista de Unidades
+      - generic [ref=f6e61]:
+        - generic [ref=f6e63]: 
+        - button [ref=f6e65] [cursor=pointer]: Voltar
+    - generic [ref=f6e67]:
+      - table [ref=f6e69]:
+        - rowgroup [ref=f6e81]:
+          - row [ref=f6e82]:
+            - columnheader [ref=f6e83]:
+              - generic [ref=f6e84]: Nome Fantasia
+            - columnheader [ref=f6e85]:
+              - generic [ref=f6e86]: Razão social
+            - columnheader [ref=f6e87]:
+              - generic [ref=f6e88]: CNPJ
+            - columnheader [ref=f6e89]:
+              - generic [ref=f6e90]: E-mail de Notificação
+            - columnheader [ref=f6e91]:
+              - generic [ref=f6e92]: Email financeiro
+            - columnheader [ref=f6e93]:
+              - generic [ref=f6e94]: Estado
+            - columnheader [ref=f6e95]:
+              - generic [ref=f6e96]: Grupo
+            - columnheader [ref=f6e97]:
+              - generic [ref=f6e98]: Status
+            - columnheader [ref=f6e99]:
+              - generic [ref=f6e100]: Tipo da unidade
+            - columnheader [ref=f6e101]:
+              - generic [ref=f6e102]:
+                - text: 
+                - generic [ref=f6e103]: Ações
+        - rowgroup [ref=f6e104]:
+          - row [ref=f6e105]:
+            - cell [ref=f6e106]:
+              - textbox [ref=f6e107]
+            - cell [ref=f6e108]:
+              - textbox [ref=f6e109]
+            - cell [ref=f6e110]:
+              - textbox [ref=f6e111]
+            - cell [ref=f6e112]:
+              - textbox [ref=f6e113]
+            - cell [ref=f6e114]:
+              - textbox [ref=f6e115]
+            - cell [ref=f6e116]:
+              - textbox [ref=f6e117]
+            - cell [ref=f6e118]:
+              - textbox [ref=f6e119]
+            - cell [ref=f6e120]:
+              - combobox [invalid] [ref=f6e121]
+            - cell [ref=f6e122]:
+              - combobox [invalid] [ref=f6e123]
+            - cell [ref=f6e124]:
+              - button [ref=f6e125] [cursor=pointer]:
+                - generic [ref=f6e126]: 
+                - generic [ref=f6e127]: Filtrar
+      - generic [ref=f6e128]:
+        - generic [ref=f6e129]: Mostrando de à de Registros
+        - menu [ref=f6e131]:
+          - link:
+            - /url: ""
+            - text: < Anterior
+          - link [ref=f6e132]:
+            - /url: ""
+            - text: "1"
+          - link:
+            - /url: ""
+            - text: Próxima >
+        - generic [ref=f6e133]:
+          - generic [ref=f6e134]: Registros
+          - generic [ref=f6e135]:
+            - generic [ref=f6e137]: "10"
+            - button [ref=f6e140] [cursor=pointer]
+  - generic: "Browsersync: connected"
+  - text:    

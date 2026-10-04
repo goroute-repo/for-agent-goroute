@@ -1,0 +1,14 @@
+[    2055ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:655
+[    2094ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    2095ms] [INFO] Logs sendo capturados e enviados para o agent Elastic para POC de observabilidade @ https://portal.dev.mobilemed.com.br/assets/js/app-575e761d21.min.js:0
+[    2128ms] Error: [$injector:cdep] http://errors.angularjs.org/1.8.3/$injector/cdep?p0=%24http%20%3C-%20Notification%20%3C-%20authzErrorHandlerService%20%3C-%20httpInterceptor%20%3C-%20%24http%20%3C-%20%24translateStaticFilesLoader
+    at https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:34:168
+    at d (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:71:114)
+    at e (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:71:438)
+    at Object.invoke (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:72:16)
+    at https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:74:58
+    at d (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:71:197)
+    at e (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:71:438)
+    at Object.invoke (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:72:16)
+    at Object.$get (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:69:378)
+    at Object.invoke (https://portal.dev.mobilemed.com.br/assets/js/dependencies-ef322fc7d9.min.js:72:264)

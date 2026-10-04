@@ -1,0 +1,90 @@
+- generic [ref=f17e17]:
+  - complementary [ref=f17e18]:
+    - generic [ref=f17e19]:
+      - generic [ref=f17e20]: GR Admin
+      - generic [ref=f17e21]: SUPER_ADMIN
+    - navigation "Operação" [ref=f17e22]:
+      - paragraph [ref=f17e23]: Operação
+      - link "Dashboard" [ref=f17e24] [cursor=pointer]:
+        - /url: /dashboard
+      - link "Usuários" [active] [ref=f17e25] [cursor=pointer]:
+        - /url: /users
+      - link "Empresas" [ref=f17e26] [cursor=pointer]:
+        - /url: /companies
+      - paragraph [ref=f17e27]: Dados
+      - link "Catálogo de cargos" [ref=f17e28] [cursor=pointer]:
+        - /url: /data/career-catalog
+      - link "Catálogo de skills" [ref=f17e29] [cursor=pointer]:
+        - /url: /data/skills
+      - paragraph [ref=f17e30]: Compliance
+      - link "Auditoria" [ref=f17e31] [cursor=pointer]:
+        - /url: /audit
+    - generic [ref=f17e32]:
+      - paragraph [ref=f17e33]: smoke-qa@goroute.local
+      - paragraph [ref=f17e34]: "Papel: SUPER_ADMIN"
+      - button "Sair" [ref=f17e35] [cursor=pointer]
+  - main [ref=f17e36]:
+    - generic [ref=f17e135]:
+      - generic "Usuários" [ref=f17e136]:
+        - generic [ref=f17e138]:
+          - paragraph [ref=f17e139]: Operação
+          - heading "Usuários" [level=1] [ref=f17e140]
+          - paragraph [ref=f17e141]: Busca e suporte a contas profissionais.
+      - generic [ref=f17e142]:
+        - textbox "E-mail" [ref=f17e143]
+        - textbox "Nome" [ref=f17e144]
+        - combobox [ref=f17e145]:
+          - option "Todos os papéis" [selected]
+          - option "SUPER_ADMIN"
+          - option "ADMIN"
+          - option "SUPPORT"
+          - option "READ_ONLY"
+          - option "root"
+          - option "professional"
+          - option "company"
+        - combobox [ref=f17e146]:
+          - 'option "Perfil: todos" [selected]'
+          - option "Com perfil profissional"
+          - option "Sem perfil"
+        - button "Buscar" [ref=f17e147] [cursor=pointer]
+      - paragraph [ref=f17e148]: 3 registro(s) · página 1 de 1
+      - table [ref=f17e149]:
+        - rowgroup [ref=f17e150]:
+          - row "Nome E-mail Papéis Onboarding Perfil" [ref=f17e151]:
+            - columnheader "Nome" [ref=f17e152]
+            - columnheader "E-mail" [ref=f17e153]
+            - columnheader "Papéis" [ref=f17e154]
+            - columnheader "Onboarding" [ref=f17e155]
+            - columnheader "Perfil" [ref=f17e156]
+            - columnheader [ref=f17e157]
+        - rowgroup [ref=f17e158]:
+          - row "Smoke QA smoke-qa@goroute.local professional, SUPER_ADMIN OK Sim Detalhe" [ref=f17e159]:
+            - cell "Smoke QA" [ref=f17e160]
+            - cell "smoke-qa@goroute.local" [ref=f17e161]
+            - cell "professional, SUPER_ADMIN" [ref=f17e162]
+            - cell "OK" [ref=f17e163]
+            - cell "Sim" [ref=f17e164]
+            - cell "Detalhe" [ref=f17e165]:
+              - link "Detalhe" [ref=f17e166] [cursor=pointer]:
+                - /url: /users/68ce8281-688a-4542-b8cd-04ec6d52f301
+          - row "— admin@goroute.com professional, root, SUPER_ADMIN Pendente — Detalhe" [ref=f17e167]:
+            - cell "—" [ref=f17e168]
+            - cell "admin@goroute.com" [ref=f17e169]
+            - cell "professional, root, SUPER_ADMIN" [ref=f17e170]
+            - cell "Pendente" [ref=f17e171]
+            - cell "—" [ref=f17e172]
+            - cell "Detalhe" [ref=f17e173]:
+              - link "Detalhe" [ref=f17e174] [cursor=pointer]:
+                - /url: /users/49c2e216-e63f-4f31-aa50-80bb7e88337b
+          - row "Diego de Souza Lima diegodesouza.souza@gmail.com professional OK Sim Detalhe" [ref=f17e175]:
+            - cell "Diego de Souza Lima" [ref=f17e176]
+            - cell "diegodesouza.souza@gmail.com" [ref=f17e177]
+            - cell "professional" [ref=f17e178]
+            - cell "OK" [ref=f17e179]
+            - cell "Sim" [ref=f17e180]
+            - cell "Detalhe" [ref=f17e181]:
+              - link "Detalhe" [ref=f17e182] [cursor=pointer]:
+                - /url: /users/026fdfad-b084-4040-9141-7b1618029566
+      - generic [ref=f17e183]:
+        - button "Anterior" [disabled] [ref=f17e184]
+        - button "Próxima" [disabled] [ref=f17e185]

@@ -1,0 +1,108 @@
+- generic [ref=f74e3]:
+  - button "Mensagens" [ref=f74e12] [cursor=pointer]: 🔔
+  - generic [ref=f74e13]:
+    - complementary "Side menu" [ref=f74e14]:
+      - generic [ref=f74e15]:
+        - generic [ref=f74e16]:
+          - generic [ref=f74e17]: GR
+          - button "Pin menu" [ref=f74e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:19 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f74e20]:
+      - generic [ref=f74e22]:
+        - generic [ref=f74e23]: workspace · account
+        - heading "Settings" [level=1] [ref=f74e24]
+        - paragraph [ref=f74e25]: Profile, career, AI mentor, and security — each tab saves independently.
+      - navigation "Settings sections" [ref=f74e26]:
+        - button "Profile" [ref=f74e27] [cursor=pointer]
+        - button "Personal data" [ref=f74e28] [cursor=pointer]
+        - button "Career & résumé" [ref=f74e29] [cursor=pointer]
+        - button "Billing" [ref=f74e30] [cursor=pointer]
+        - button "Track" [ref=f74e31] [cursor=pointer]
+        - button "AI mentor" [ref=f74e32] [cursor=pointer]
+        - button "Security" [ref=f74e33] [cursor=pointer]
+      - generic [ref=f74e34]:
+        - heading "Profile" [level=2] [ref=f74e35]
+        - paragraph [ref=f74e36]:
+          - text: "Name:"
+          - strong [ref=f74e37]: Smoke QA
+        - generic [ref=f74e38]:
+          - generic [ref=f74e39]: Headline
+          - textbox "Headline" [ref=f74e40]: Desenvolvedor Web FullStack · Junior
+        - generic [ref=f74e41]:
+          - generic [ref=f74e42]: Bio
+          - textbox "Bio" [ref=f74e43]
+        - generic [ref=f74e44]:
+          - generic [ref=f74e45]:
+            - generic [ref=f74e46]: Home ZIP code
+            - textbox "Home ZIP code São Paulo — SP" [ref=f74e47]: 01310-100
+            - generic [ref=f74e48]: São Paulo — SP
+          - generic [ref=f74e49]:
+            - generic [ref=f74e50]: Number
+            - textbox "Number" [ref=f74e51]:
+              - /placeholder: e.g. 42, apt 10
+        - button "Save address" [ref=f74e52] [cursor=pointer]
+        - paragraph [ref=f74e53]: "City: São Paulo — SP · Target role: Desenvolvedor Web FullStack · Pleno"
+        - button "Save profile" [ref=f74e54] [cursor=pointer]
+        - generic [ref=f74e55]:
+          - generic [ref=f74e56]: LGPD · optional
+          - heading "Talent pool" [level=3] [ref=f74e57]
+          - paragraph [ref=f74e58]:
+            - text: Lets partner companies see your profile for invites without a prior application.
+            - link "Consent terms" [ref=f74e59] [cursor=pointer]:
+              - /url: /legal/banco-talentos
+            - text: .
+          - generic [ref=f74e60]:
+            - checkbox "I authorize joining the Talent Pool per the specific terms." [ref=f74e61]
+            - generic [ref=f74e62]: I authorize joining the Talent Pool per the specific terms.
+      - link "← Back" [ref=f74e64] [cursor=pointer]:
+        - /url: /dashboard/personal

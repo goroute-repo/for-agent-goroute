@@ -1,0 +1,293 @@
+[     119ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[     280ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    2377ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    2378ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[    2650ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    3741ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:9001/usuario/data-user/messaging:0
+[    4188ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    4188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    4996ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    5727ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    5727ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   16092ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   16327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   18335ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   18335ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   18441ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   18441ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   86659ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   86909ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   86909ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   93958ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   94226ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   94227ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  323131ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  323153ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  325490ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  325490ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  325561ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  325562ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1268:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1263:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1367:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1425:48)
+    at request (http://localhost:3000/assets/js/app.js:1667:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  325743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  326991ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  332539ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  335470ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  337465ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  337494ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  338035ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  338036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  338083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  338144ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1269:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1264:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1368:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1428:48)
+    at request (http://localhost:3000/assets/js/app.js:1884:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  339842ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  341349ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  341349ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  342208ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  342427ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  342427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  349241ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  364716ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  365270ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  367863ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  373447ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  375812ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  375813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  375890ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  375890ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1269:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1264:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1368:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1428:48)
+    at request (http://localhost:3000/assets/js/app.js:1670:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  376061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  377276ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  377276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  378412ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  380180ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  380180ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  790051ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  790069ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  790951ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:9001/oauth/redirect/tenant:0
+[  791127ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1269:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1264:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1368:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1428:48)
+    at request (http://localhost:3000/assets/js/app.js:1670:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  792413ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  792413ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  792689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  793650ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  793650ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  795050ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  796776ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  796777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  831718ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  831736ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  834987ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  835016ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  837391ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  837392ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  837468ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  837467ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1269:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1264:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1368:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1428:48)
+    at request (http://localhost:3000/assets/js/app.js:1670:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  837638ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  839000ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  839000ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  839991ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  840923ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  840940ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  842335ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  842335ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  843299ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  843370ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  843375ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1269:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1264:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1368:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1428:48)
+    at request (http://localhost:3000/assets/js/app.js:1670:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  844797ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  844797ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  845641ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  853052ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  855407ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  855407ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=mm-pacs-portal-frontend&service.environment=local:0
+[  855452ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9001/oauth/redirect/tenant:0
+[  855451ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13523)
+    at window.fetch (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0:13462)
+    at <anonymous> (http://localhost:3000/assets/js/app.js:1268:4)
+    at getUserManager (http://localhost:3000/assets/js/app.js:1263:24)
+    at getAccessToken (http://localhost:3000/assets/js/app.js:1367:3)
+    at authService.getAccessToken (http://localhost:3000/assets/js/app.js:1425:48)
+    at request (http://localhost:3000/assets/js/app.js:9776:20)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:167:453)
+    at $digest (http://localhost:3000/assets/js/dependencies.js:179:66)
+    at $apply (http://localhost:3000/assets/js/dependencies.js:182:483)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:48:154)
+    at invoke (http://localhost:3000/assets/js/dependencies.js:71:263)
+    at c (http://localhost:3000/assets/js/dependencies.js:48:75)
+    at Wc (http://localhost:3000/assets/js/dependencies.js:48:369)
+    at Ee (http://localhost:3000/assets/js/dependencies.js:47:44)
+    at <anonymous> (http://localhost:3000/assets/js/dependencies.js:377:116)
+    at i (http://localhost:3000/assets/js/dependencies.js:3:27150)
+    at fireWith (http://localhost:3000/assets/js/dependencies.js:3:27913)
+    at ready (http://localhost:3000/assets/js/dependencies.js:3:29706)
+    at J (http://localhost:3000/assets/js/dependencies.js:3:29891)
+[  855662ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  856539ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  856540ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  857995ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  859758ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  859758ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0

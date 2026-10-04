@@ -1,0 +1,50 @@
+[      76ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[      76ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[     160ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[     164ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[     165ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[    1192ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[    1256ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[    1288ms] [WARNING] Text color plugin is now built in to the core editor, please remove it from your editor configuration @ http://localhost:3000/node_modules/mobile-tinymce/plugins/textcolor/plugin.min.js:8
+[    1327ms] [ERROR] Access to XMLHttpRequest at 'https://reports-ai.mobilemed.com.br/provider' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3000/empresa/11:0
+[    1343ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://reports-ai.mobilemed.com.br/provider:0
+[    2517ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    2520ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[    2786ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    3388ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:3000/empresa/11:0
+[    3734ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    3734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    5109ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    5872ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    5872ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    7468ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    7576ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    7576ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   34601ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   34851ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   34852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   80849ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   81130ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   82080ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   82080ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   83199ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   83199ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   85841ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   86078ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   86078ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0

@@ -1,0 +1,17 @@
+[      63ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[ 1681711ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4200/@vite/client:864
+[ 1690149ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-frontend/.angular/cache/21.2.9/goroute-frontend/vite/deps/chunk-XVVTX2KD.js?v=9852cd49:14437
+[ 1690174ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/me:0
+[ 1690226ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/goroute-auth/session/bootstrap:0
+[ 1690226ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:4200/api/weather?latitude=-23.5505&longitude=-46.6333:0
+[ 1812919ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4200/@vite/client:864
+[ 2355786ms] [ERROR] Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of "text/html". Strict MIME type checking is enforced for module scripts per HTML spec. @ http://localhost:4200/chunk-SXFGWQKF.js:0
+[ 2355788ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2358617ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2359384ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2359667ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2359833ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2359950ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2360118ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2360250ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51
+[ 2360401ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:4200/chunk-SXFGWQKF.js @ http://localhost:4200/main.js:51

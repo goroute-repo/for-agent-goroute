@@ -1,0 +1,3 @@
+[     518ms] [LOG] Angular is running in development mode. @ http://localhost:4201/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-platform-admin/.angular/cache/19.2.27/goroute-platform-admin/vite/deps/chunk-X3VTBO74.js?v=f47930f3:15226
+[   58745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4201/goroute-auth/users/logout:0
+[   59532ms] [LOG] Angular is running in development mode. @ http://localhost:4201/@fs/C:/Users/P136/Documents/pessoal/para_subir/GoRoute/goroute-platform-admin/.angular/cache/19.2.27/goroute-platform-admin/vite/deps/chunk-X3VTBO74.js?v=f47930f3:15226

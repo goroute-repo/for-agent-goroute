@@ -1,0 +1,96 @@
+- generic [ref=f94e3]:
+  - dialog "Persisted content in Portuguese" [ref=f94e4]:
+    - generic [ref=f94e5]:
+      - generic [ref=f94e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f94e7]
+      - paragraph [ref=f94e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f94e10] [cursor=pointer]
+  - button "Mensagens" [ref=f94e12] [cursor=pointer]: 🔔
+  - generic [ref=f94e13]:
+    - complementary "Side menu" [ref=f94e14]:
+      - generic [ref=f94e15]:
+        - generic [ref=f94e16]:
+          - generic [ref=f94e17]: GR
+          - button "Pin menu" [ref=f94e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 09:35 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 11 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f94e20]:
+      - generic [ref=f94e21]:
+        - generic [ref=f94e22]:
+          - generic [ref=f94e23]: workspace · marketplace
+          - heading "Jobs with real match" [level=1] [ref=f94e24]
+          - paragraph [ref=f94e25]: Published jobs ranked by match with your roadmap skills — no noise, no empty keywords.
+        - link "Adjust roadmap" [ref=f94e27] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+      - navigation [ref=f94e28]:
+        - link "Overview" [ref=f94e29] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f94e30] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Browse jobs" [ref=f94e31] [cursor=pointer]:
+          - /url: /dashboard/jobs?tab=browse
+        - link "Invites" [ref=f94e32] [cursor=pointer]:
+          - /url: /dashboard/jobs?tab=invites
+        - link "My week" [ref=f94e33] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f94e35]:
+        - generic [ref=f94e36]:
+          - generic [ref=f94e37]: Search
+          - textbox "Search" [ref=f94e38]:
+            - /placeholder: job title or company
+        - generic [ref=f94e39]:
+          - checkbox "Only 100% eligible jobs" [ref=f94e40]
+          - generic [ref=f94e41]: Only 100% eligible jobs
+        - button "Filter" [ref=f94e42] [cursor=pointer]
+      - generic [ref=f94e43]: No published jobs right now — check back soon or refine your roadmap.
+      - link "← Back to home" [ref=f94e46] [cursor=pointer]:
+        - /url: /dashboard/personal

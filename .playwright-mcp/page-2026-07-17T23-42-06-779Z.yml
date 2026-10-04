@@ -1,0 +1,107 @@
+- generic [ref=f35e3]:
+  - button "Mensagens" [ref=f35e12] [cursor=pointer]: 🔔
+  - generic [ref=f35e13]:
+    - complementary "Side menu" [ref=f35e14]:
+      - generic [ref=f35e15]:
+        - generic [ref=f35e16]:
+          - generic [ref=f35e17]: GR
+          - button "Pin menu" [ref=f35e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:42 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f35e20]:
+      - generic [ref=f35e21]:
+        - generic [ref=f35e22]:
+          - generic [ref=f35e23]: workspace · career graph
+          - heading "Track progress" [level=1] [ref=f35e24]
+          - paragraph [ref=f35e25]: See what is left to reach your target role.
+        - generic [ref=f35e26]:
+          - link "Change goal" [ref=f35e27] [cursor=pointer]:
+            - /url: /dashboard/settings?tab=carreira
+          - link "View full map" [ref=f35e28] [cursor=pointer]:
+            - /url: /dashboard/roadmap
+      - navigation [ref=f35e29]:
+        - link "Overview" [ref=f35e30] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f35e31] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Progresso" [ref=f35e32] [cursor=pointer]:
+          - /url: /dashboard/roadmap/progress
+        - link "Histórico" [ref=f35e33] [cursor=pointer]:
+          - /url: /dashboard/roadmap/history
+        - link "Jobs" [ref=f35e34] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f35e35] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - generic [ref=f35e36]:
+        - paragraph [ref=f35e37]: 0%
+        - paragraph [ref=f35e38]: 0 / 2 nodes
+        - generic [ref=f35e40]:
+          - generic [ref=f35e41]:
+            - term [ref=f35e42]: ETA to goal
+            - definition [ref=f35e43]: wk. 80
+          - generic [ref=f35e44]:
+            - term [ref=f35e45]: estimated hours
+            - definition [ref=f35e46]: 0 / 640h
+          - generic [ref=f35e47]:
+            - term [ref=f35e48]: "pace: 8h/week"
+            - definition
+      - generic [ref=f35e49]:
+        - heading "Missing" [level=2] [ref=f35e50]
+        - list [ref=f35e51]:
+          - listitem [ref=f35e52]:
+            - link "Desenvolvedor Web FullStack · Pleno" [ref=f35e53] [cursor=pointer]:
+              - /url: /dashboard/roadmap
+            - generic [ref=f35e54]: recommended
+          - listitem [ref=f35e55]:
+            - link "Desenvolvedor Web Fullstack · Senior" [ref=f35e56] [cursor=pointer]:
+              - /url: /dashboard/roadmap
+            - generic [ref=f35e57]: available

@@ -1,0 +1,154 @@
+[     225ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[     225ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[    1524ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[    1595ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    1598ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[    3946ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    3946ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[    4305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    5471ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    5472ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    6624ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[    7316ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[    7316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   24320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[   24597ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[   24597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  318592ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  318592ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  318966ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  318982ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  318983ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  321432ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  321433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[  321462ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/preferencia/lista:0
+[  321594ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  321594ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  321680ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  322056ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  322057ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  322424ms] [ERROR] Error: [$injector:unpr] http://errors.angularjs.org/1.8.3/$injector/unpr?p0=assinaturaLaudoValidationServiceProvider%20%3C-%20assinaturaLaudoValidationService%20%3C-%20examesCtrl
+    at http://localhost:3000/assets/js/dependencies.js:34:168
+    at http://localhost:3000/assets/js/dependencies.js:73:468
+    at Object.d [as get] (http://localhost:3000/assets/js/dependencies.js:71:197)
+    at http://localhost:3000/assets/js/dependencies.js:74:29
+    at d (http://localhost:3000/assets/js/dependencies.js:71:197)
+    at e (http://localhost:3000/assets/js/dependencies.js:71:438)
+    at Object.instantiate (http://localhost:3000/assets/js/dependencies.js:72:333)
+    at Kf.$get (http://localhost:3000/assets/js/dependencies.js:126:267)
+    at Object.<anonymous> (http://localhost:3000/assets/js/dependencies.js:483:24299)
+    at http://localhost:3000/assets/js/dependencies.js:44:134 <section data-ui-view="" class="view-container {{ main.pageTransition.class }} ng-scope" data-ng-animate="1"> @ http://localhost:3000/assets/js/dependencies.js:155
+[  322723ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/preferencia/lista:0
+[  323295ms] [ERROR] TypeError: Cannot read properties of null (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:2212:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onerror (http://localhost:3000/assets/js/dependencies.js:141:22) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[  323327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/pesquisapadrao/407:0
+[  324386ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  324386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[  324638ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  325837ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  325838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  327001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  328748ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  328749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  484998ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  484998ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  485157ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  485450ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  485451ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  486389ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  486389ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  486468ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  486821ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  486822ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  489156ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  489157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[  489266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/preferencia/lista:0
+[  489503ms] [ERROR] TypeError: Cannot read properties of null (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:2212:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onerror (http://localhost:3000/assets/js/dependencies.js:141:22) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[  489583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/pesquisapadrao/407:0
+[  489642ms] [ERROR] TypeError: Cannot read properties of null (reading 'error_code')
+    at http://localhost:3000/assets/js/app.js:3019:87
+    at http://localhost:3000/assets/js/dependencies.js:168:454
+    at m.$digest (http://localhost:3000/assets/js/dependencies.js:180:67)
+    at m.$apply (http://localhost:3000/assets/js/dependencies.js:183:484)
+    at k (http://localhost:3000/assets/js/dependencies.js:134:445)
+    at v (http://localhost:3000/assets/js/dependencies.js:140:40)
+    at y.onerror (http://localhost:3000/assets/js/dependencies.js:141:22) Possibly unhandled rejection: {} @ http://localhost:3000/assets/js/dependencies.js:155
+[  489676ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/exame/lista:0
+[  491152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:9002/comunicado/search:0
+[  492358ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  492649ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  493518ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  493519ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  494697ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  494697ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  504471ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  504471ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  504593ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  504609ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  504610ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  506596ms] [LOG] %cCornerstone Tools background: #339955; padding: 4px; font-weight: bold; color: white @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36331
+[  506596ms] [INFO] run %clocalStorage.setItem("debug", "cornerstoneTools")%c to see console output background: #eaeaea; color: #333; font-family: monospace  @ https://unpkg.com/cornerstone-tools@6.0.10/dist/cornerstoneTools.js:36333
+[  506686ms] [WARNING] Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info. @ http://localhost:3000/assets/js/dependencies.js:655
+[  507048ms] [WARNING] [Elastic APM] Unknown config options are specified for RUM agent: capturePageLoad @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  507049ms] [INFO] [APM RUM] init ok {serviceName: portal-front, serverUrl: http://localhost:8200, dtrOrigins: Array(1), sampleRate: 1} @ http://localhost:3000/assets/js/app.js:180
+[  508073ms] [ERROR] Error: [$injector:unpr] http://errors.angularjs.org/1.8.3/$injector/unpr?p0=assinaturaLaudoValidationServiceProvider%20%3C-%20assinaturaLaudoValidationService%20%3C-%20examesCtrl
+    at http://localhost:3000/assets/js/dependencies.js:34:168
+    at http://localhost:3000/assets/js/dependencies.js:73:468
+    at Object.d [as get] (http://localhost:3000/assets/js/dependencies.js:71:197)
+    at http://localhost:3000/assets/js/dependencies.js:74:29
+    at d (http://localhost:3000/assets/js/dependencies.js:71:197)
+    at e (http://localhost:3000/assets/js/dependencies.js:71:438)
+    at Object.instantiate (http://localhost:3000/assets/js/dependencies.js:72:333)
+    at Kf.$get (http://localhost:3000/assets/js/dependencies.js:126:267)
+    at Object.<anonymous> (http://localhost:3000/assets/js/dependencies.js:483:24299)
+    at http://localhost:3000/assets/js/dependencies.js:44:134 <section data-ui-view="" class="view-container {{ main.pageTransition.class }} ng-scope" data-ng-animate="1"> @ http://localhost:3000/assets/js/dependencies.js:155
+[  508323ms] [WARNING] [Elastic APM] failed fetching config: Error: http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:28770 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  508323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/config/v1/rum/agents?service.name=portal-front&service.environment=local:0
+[  509377ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  511600ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  511611ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  511902ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[  512719ms] [WARNING] [Elastic APM] Failed sending events! Error: http://localhost:8200/intake/v2/rum/events HTTP status: 0
+    at e._constructError (https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:27168)
+    at https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:1:26243 @ https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5/dist/bundles/elastic-apm-rum.umd.min.js:0
+[  512720ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8200/intake/v2/rum/events:0
+[ 1104462ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/browser-sync/socket.io/?EIO=4&transport=polling&t=P-wa3B_:0

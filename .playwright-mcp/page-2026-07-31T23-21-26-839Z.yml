@@ -1,0 +1,317 @@
+- generic [active] [ref=e1]:
+  - img [ref=e3]
+  - banner [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "MobileMed" [ref=e9] [cursor=pointer]
+          - listitem "Listagem de exames" [ref=e10]:
+            - link "settings" [ref=e11] [cursor=pointer]:
+              - /url: /exames
+              - generic [ref=e12]: 
+          - listitem "Relatórios" [ref=e13]:
+            - link "settings" [ref=e14] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e15]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Meus exames":
+                    - /url: /relatorio/meus-exames
+                - listitem:
+                  - link "Meu Financeiro":
+                    - /url: /relatorio/meu-financeiro
+                - button "Dashboard BI": Dashboard BI
+                - listitem:
+                  - link "Financeiro da Unidade":
+                    - /url: /relatorio/financeiro-empresa
+                - listitem:
+                  - link "Financeiro do Usuário":
+                    - /url: /relatorio/financeiro-usuario
+                - listitem:
+                  - link "Relatório de exames por unidade":
+                    - /url: /relatorio/exames
+                - listitem:
+                  - link "Relatório de exames por médico":
+                    - /url: /relatorio/medicos
+                - listitem:
+                  - link "Relatório de exames por digitador":
+                    - /url: /relatorio/digitador
+                - listitem:
+                  - link "Relatório de exames agrupado":
+                    - /url: /relatorio/exame-agrupado
+                - listitem:
+                  - link "Listar exames cancelados":
+                    - /url: /cancelados
+                - listitem:
+                  - link "Relatório de exames cancelados":
+                    - /url: /relatorio/exames-cancelados
+                - listitem:
+                  - link "Relatório de exames por SLA":
+                    - /url: /relatorio/exames-sla
+                - listitem:
+                  - link "Relatório de exames justificados":
+                    - /url: /relatorio/exames-justificativa
+          - button "settings Fale Conosco Protocolo de Manchester Tutoriais  Sala do Suporte Portal de Resultados Teamviewer / AnyDesk  Download Apps " [ref=e16] [cursor=pointer]:
+            - link "settings" [ref=e17]:
+              - /url: javascript:;
+              - generic [ref=e18]: 
+            - generic:
+              - list:
+                - button "Fale Conosco"
+                - button "Protocolo de Manchester"
+                - button "Tutoriais ":
+                  - link "Tutoriais ":
+                    - /url: ""
+                    - text: Tutoriais
+                    - generic: 
+                - button "Sala do Suporte"
+                - button "Portal de Resultados"
+                - button "Teamviewer / AnyDesk ":
+                  - link "Teamviewer / AnyDesk ":
+                    - /url: ""
+                    - text: Teamviewer / AnyDesk
+                    - generic: 
+                - button "Download Apps ":
+                  - link "Download Apps ":
+                    - /url: ""
+                    - text: Download Apps
+                    - generic: 
+          - listitem "Administrador" [ref=e19]:
+            - link "settings" [ref=e20] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e21]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link " Permissões":
+                    - /url: /permissao
+                    - generic: 
+                    - text: Permissões
+                - listitem:
+                  - link "Cadastro de Unidades":
+                    - /url: /empresas
+                - listitem:
+                  - link "Vincular Máscaras de Unidades":
+                    - /url: /copiar/mascara/empresa
+                - listitem:
+                  - link "Vincular Especialidades":
+                    - /url: /vincular/especialidade
+                - listitem:
+                  - link "Gerenciar Máscaras de Unidades":
+                    - /url: /mascaras/empresa/gerenciar
+                - listitem:
+                  - link "Vincular Máscaras de Usuários":
+                    - /url: /copiar/mascara/usuario
+                - listitem:
+                  - link "Gerenciar Máscaras de Usuários":
+                    - /url: /mascaras/usuario/gerenciar
+          - listitem "Proprietário" [ref=e22]:
+            - link "settings" [ref=e23] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e24]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Adicionar Nova Unidade":
+                    - /url: /empresa/0
+                - listitem:
+                  - link "Criar Grupos":
+                    - /url: /gruposEmpresas
+                - listitem:
+                  - link "Criar Pacs":
+                    - /url: pacs-externo
+                - listitem:
+                  - link "Listar Pacs":
+                    - /url: listar-pacs
+                - listitem:
+                  - link "Cadastrar Convênios":
+                    - /url: /convenio
+                - listitem:
+                  - link "Cadastrar Raça":
+                    - /url: raca
+                - listitem:
+                  - link "Dashboard":
+                    - /url: /dashboard
+                - listitem:
+                  - link "Comunicados":
+                    - /url: /comunicados
+                - listitem:
+                  - link "Pesquisa Padrão":
+                    - /url: /pesquisaPadrao
+                - listitem:
+                  - link "Integrações":
+                    - /url: /integracao
+                - listitem:
+                  - link "White List de IP":
+                    - /url: /whiteListIp
+          - text: 
+          - listitem [ref=e25]:
+            - button "Configurações de Frases" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+          - listitem [ref=e29]:
+            - link "settings" [ref=e30] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e31]: 
+              - text: Favoritos
+            - generic:
+              - list:
+                - listitem:
+                  - link " Salvar pesquisa":
+                    - /url: ""
+                    - generic: 
+                    - text: Salvar pesquisa
+                - listitem:
+                  - generic: Nenhuma Preferência Salva
+        - generic [ref=e32]:
+          - navigation [ref=e33]:
+            - button "A preparar" [ref=e34] [cursor=pointer]:
+              - strong [ref=e35]: A preparar
+            - button " Reconvocar" [ref=e36] [cursor=pointer]:
+              - strong [ref=e37]:
+                - generic [ref=e38]: 
+              - strong [ref=e39]: Reconvocar
+            - button " Pendências" [ref=e40] [cursor=pointer]:
+              - strong [ref=e41]:
+                - generic [ref=e42]: 
+              - strong [ref=e43]: Pendências
+            - button "Internado" [ref=e44] [cursor=pointer]:
+              - strong [ref=e45]: Internado
+            - button "Plantão" [ref=e46] [cursor=pointer]:
+              - strong [ref=e47]: Plantão
+            - button "Emergências" [ref=e48] [cursor=pointer]:
+              - strong [ref=e49]: Emergências
+            - button "Urgências" [ref=e50] [cursor=pointer]:
+              - strong [ref=e51]: Urgências
+            - button "Ambulatórios" [ref=e52] [cursor=pointer]:
+              - strong [ref=e53]: Ambulatórios
+            - button "Meus exames" [ref=e54] [cursor=pointer]:
+              - strong [ref=e55]: Meus exames
+          - navigation [ref=e56]:
+            - button "diego dev" [ref=e57] [cursor=pointer]:
+              - img "diego dev" [ref=e58]
+            - menu:
+              - listitem:
+                - link " Meu perfil":
+                  - /url: "#"
+                  - generic: 
+                  - text: Meu perfil
+              - listitem:
+                - generic:
+                  - generic: 
+                  - text: Minha Sala
+              - listitem:
+                - link " Sair":
+                  - /url: /logout
+                  - generic: 
+                  - text: Sair
+              - listitem:
+                - link "Inglês":
+                  - /url: javascript:;
+                  - text: Inglês
+              - listitem:
+                - link "Espanhol":
+                  - /url: javascript:;
+                  - text: Espanhol
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - button "Modalidades TODOS MR CT CR DX US MG OT XA CP NM ES EEG ECG BMD  Filtrar" [ref=e62] [cursor=pointer]:
+            - button "Modalidades" [ref=e63]
+            - generic:
+              - list:
+                - generic:
+                  - checkbox "TODOS" [checked]:
+                    - generic: Todos
+                - generic:
+                  - checkbox "MR" [checked]:
+                    - generic: MR
+                - generic:
+                  - checkbox "CT" [checked]:
+                    - generic: CT
+                - generic:
+                  - checkbox "CR" [checked]:
+                    - generic: CR
+                - generic:
+                  - checkbox "DX" [checked]:
+                    - generic: DX
+                - generic:
+                  - checkbox "US" [checked]:
+                    - generic: US
+                - generic:
+                  - checkbox "MG" [checked]:
+                    - generic: MG
+                - generic:
+                  - checkbox "OT" [checked]:
+                    - generic: OT
+                - generic:
+                  - checkbox "XA" [checked]:
+                    - generic: XA
+                - generic:
+                  - checkbox "CP" [checked]:
+                    - generic: CP
+                - generic:
+                  - checkbox "NM" [checked]:
+                    - generic: NM
+                - generic:
+                  - checkbox "ES" [checked]:
+                    - generic: ES
+                - generic:
+                  - checkbox "EEG" [checked]:
+                    - generic: EEG
+                - generic:
+                  - checkbox "ECG" [checked]:
+                    - generic: ECG
+                - generic:
+                  - checkbox "BMD" [checked]:
+                    - generic: BMD
+                - button " Filtrar":
+                  - generic: 
+                  - text: Filtrar
+          - button "" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: 
+          - button "" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: 
+          - button "Assinados" [ref=e68] [cursor=pointer]
+        - listitem [ref=e69]:
+          - generic [ref=e70]:
+            - searchbox "Data exame" [ref=e71]
+            - generic [ref=e73] [cursor=pointer]: 
+          - paragraph [ref=e74]:
+            - generic [ref=e75] [cursor=pointer]: 24h
+          - paragraph [ref=e76]:
+            - generic [ref=e77] [cursor=pointer]: 48h
+          - paragraph [ref=e78]:
+            - generic [ref=e79] [cursor=pointer]: 7 Dias
+          - paragraph [ref=e80]:
+            - generic [ref=e81] [cursor=pointer]: 30 Dias
+          - button "" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: 
+          - button "" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: 
+        - listitem [ref=e86]:
+          - textbox "Nome do Pet" [ref=e88]
+          - textbox "Nome Tutor" [ref=e90]
+        - listitem [ref=e91]:
+          - button [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]: 
+          - button " " [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: 
+            - generic [ref=e96]: 
+          - button "" [ref=e97] [cursor=pointer]:
+            - generic [ref=e98]: 
+          - button "Últimos exames assinados por mim" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: 
+          - button "Adicionar exame manualmente" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: 
+          - button "Cadastrar CPFs" [ref=e103] [cursor=pointer]:
+            - generic [ref=e104]: 
+        - listitem [ref=e105]:
+          - button "Expandir pesquisa avançada" [ref=e106] [cursor=pointer]:
+            - generic [ref=e107]: 
+  - generic [ref=e109]:
+    - generic [ref=e111]:
+      - heading "Listagem vazia" [level=4] [ref=e112]
+      - paragraph [ref=e113]: Faça um novo filtro!
+    - text: ▼
+  - text:    

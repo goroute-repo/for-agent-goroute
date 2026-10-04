@@ -1,0 +1,459 @@
+- generic [ref=f7e1]:
+  - banner [ref=f7e4]:
+    - banner [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - list [ref=f7e7]:
+          - listitem [ref=f7e8]:
+            - button "MobileMed" [ref=f7e9] [cursor=pointer]
+          - listitem "Listagem de exames" [ref=f7e10]:
+            - link "settings" [ref=f7e11] [cursor=pointer]:
+              - /url: /exames
+              - generic [ref=f7e12]: 
+          - listitem "Relatórios" [ref=f7e13]:
+            - link "settings" [ref=f7e14] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f7e15]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Meus exames":
+                    - /url: /relatorio/meus-exames
+                - listitem:
+                  - link "Meu Financeiro":
+                    - /url: /relatorio/meu-financeiro
+                - button "Dashboard BI": Dashboard BI
+                - listitem:
+                  - link "Financeiro da Unidade":
+                    - /url: /relatorio/financeiro-empresa
+                - listitem:
+                  - link "Financeiro do Usuário":
+                    - /url: /relatorio/financeiro-usuario
+                - listitem:
+                  - link "Relatório de exames por unidade":
+                    - /url: /relatorio/exames
+                - listitem:
+                  - link "Relatório de exames por médico":
+                    - /url: /relatorio/medicos
+                - listitem:
+                  - link "Relatório de exames por digitador":
+                    - /url: /relatorio/digitador
+                - listitem:
+                  - link "Relatório de exames agrupado":
+                    - /url: /relatorio/exame-agrupado
+                - listitem:
+                  - link "Listar exames cancelados":
+                    - /url: /cancelados
+                - listitem:
+                  - link "Relatório de exames cancelados":
+                    - /url: /relatorio/exames-cancelados
+                - listitem:
+                  - link "Relatório de exames por SLA":
+                    - /url: /relatorio/exames-sla
+                - listitem:
+                  - link "Relatório de exames justificados":
+                    - /url: /relatorio/exames-justificativa
+          - button "settings Fale Conosco Protocolo de Manchester Tutoriais  Sala do Suporte Portal de Resultados Teamviewer / AnyDesk  Download Apps " [ref=f7e16] [cursor=pointer]:
+            - link "settings" [ref=f7e17]:
+              - /url: javascript:;
+              - generic [ref=f7e18]: 
+            - generic:
+              - list:
+                - button "Fale Conosco"
+                - button "Protocolo de Manchester"
+                - button "Tutoriais ":
+                  - link "Tutoriais ":
+                    - /url: ""
+                    - text: Tutoriais
+                    - generic: 
+                - button "Sala do Suporte"
+                - button "Portal de Resultados"
+                - button "Teamviewer / AnyDesk ":
+                  - link "Teamviewer / AnyDesk ":
+                    - /url: ""
+                    - text: Teamviewer / AnyDesk
+                    - generic: 
+                - button "Download Apps ":
+                  - link "Download Apps ":
+                    - /url: ""
+                    - text: Download Apps
+                    - generic: 
+          - listitem "Administrador" [ref=f7e19]:
+            - link "settings" [ref=f7e20] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f7e21]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link " Permissões":
+                    - /url: /permissao
+                    - generic: 
+                    - text: Permissões
+                - listitem:
+                  - link "Cadastro de Unidades":
+                    - /url: /empresas
+                - listitem:
+                  - link "Vincular Máscaras de Unidades":
+                    - /url: /copiar/mascara/empresa
+                - listitem:
+                  - link "Vincular Especialidades":
+                    - /url: /vincular/especialidade
+                - listitem:
+                  - link "Gerenciar Máscaras de Unidades":
+                    - /url: /mascaras/empresa/gerenciar
+                - listitem:
+                  - link "Vincular Máscaras de Usuários":
+                    - /url: /copiar/mascara/usuario
+                - listitem:
+                  - link "Gerenciar Máscaras de Usuários":
+                    - /url: /mascaras/usuario/gerenciar
+          - listitem "Proprietário" [ref=f7e22]:
+            - link "settings" [ref=f7e23] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f7e24]: 
+            - generic:
+              - list:
+                - listitem:
+                  - link "Adicionar Nova Unidade":
+                    - /url: /empresa/0
+                - listitem:
+                  - link "Criar Grupos":
+                    - /url: /gruposEmpresas
+                - listitem:
+                  - link "Criar Pacs":
+                    - /url: pacs-externo
+                - listitem:
+                  - link "Listar Pacs":
+                    - /url: listar-pacs
+                - listitem:
+                  - link "Cadastrar Convênios":
+                    - /url: /convenio
+                - listitem:
+                  - link "Cadastrar Raça":
+                    - /url: raca
+                - listitem:
+                  - link "Dashboard":
+                    - /url: /dashboard
+                - listitem:
+                  - link "Comunicados":
+                    - /url: /comunicados
+                - listitem:
+                  - link "Pesquisa Padrão":
+                    - /url: /pesquisaPadrao
+                - listitem:
+                  - link "Integrações":
+                    - /url: /integracao
+                - listitem:
+                  - link "White List de IP":
+                    - /url: /whiteListIp
+          - text: 
+          - listitem [ref=f7e25]:
+            - button "Configurações de Frases" [ref=f7e26] [cursor=pointer]:
+              - img [ref=f7e27]
+          - listitem [ref=f7e29]:
+            - link "settings" [ref=f7e30] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=f7e31]: 
+              - text: Favoritos
+            - generic:
+              - list:
+                - listitem:
+                  - link " Salvar pesquisa":
+                    - /url: ""
+                    - generic: 
+                    - text: Salvar pesquisa
+                - listitem:
+                  - generic: Nenhuma Preferência Salva
+        - generic [ref=f7e32]:
+          - navigation [ref=f7e33]:
+            - button "A preparar" [ref=f7e34] [cursor=pointer]:
+              - strong [ref=f7e35]: A preparar
+            - button " Reconvocar" [ref=f7e36] [cursor=pointer]:
+              - strong [ref=f7e37]:
+                - generic [ref=f7e38]: 
+              - strong [ref=f7e39]: Reconvocar
+            - button " Pendências" [ref=f7e40] [cursor=pointer]:
+              - strong [ref=f7e41]:
+                - generic [ref=f7e42]: 
+              - strong [ref=f7e43]: Pendências
+            - button "Internado" [ref=f7e44] [cursor=pointer]:
+              - strong [ref=f7e45]: Internado
+            - button "Plantão" [ref=f7e46] [cursor=pointer]:
+              - strong [ref=f7e47]: Plantão
+            - button "Emergências" [ref=f7e48] [cursor=pointer]:
+              - strong [ref=f7e49]: Emergências
+            - button "Urgências" [ref=f7e50] [cursor=pointer]:
+              - strong [ref=f7e51]: Urgências
+            - button "Ambulatórios" [ref=f7e52] [cursor=pointer]:
+              - strong [ref=f7e53]: Ambulatórios
+            - button "Meus exames" [ref=f7e54] [cursor=pointer]:
+              - strong [ref=f7e55]: Meus exames
+          - navigation [ref=f7e56]:
+            - button "diego dev" [ref=f7e57] [cursor=pointer]:
+              - img "diego dev" [ref=f7e58]
+            - menu:
+              - listitem:
+                - link " Meu perfil":
+                  - /url: "#"
+                  - generic: 
+                  - text: Meu perfil
+              - listitem:
+                - generic:
+                  - generic: 
+                  - text: Minha Sala
+              - listitem:
+                - link " Sair":
+                  - /url: /logout
+                  - generic: 
+                  - text: Sair
+              - listitem:
+                - link "Inglês":
+                  - /url: javascript:;
+                  - text: Inglês
+              - listitem:
+                - link "Espanhol":
+                  - /url: javascript:;
+                  - text: Espanhol
+      - list [ref=f7e60]:
+        - listitem [ref=f7e61]:
+          - button "Modalidades Todos MR CT CR DX US MG OT XA CP NM ES EEG ECG BMD  Filtrar" [ref=f7e62] [cursor=pointer]:
+            - button "Modalidades" [ref=f7e63]
+            - generic:
+              - list:
+                - generic:
+                  - checkbox "Todos" [checked]:
+                    - generic: Todos
+                - generic:
+                  - checkbox "MR" [checked]:
+                    - generic: MR
+                - generic:
+                  - checkbox "CT" [checked]:
+                    - generic: CT
+                - generic:
+                  - checkbox "CR" [checked]:
+                    - generic: CR
+                - generic:
+                  - checkbox "DX" [checked]:
+                    - generic: DX
+                - generic:
+                  - checkbox "US" [checked]:
+                    - generic: US
+                - generic:
+                  - checkbox "MG" [checked]:
+                    - generic: MG
+                - generic:
+                  - checkbox "OT" [checked]:
+                    - generic: OT
+                - generic:
+                  - checkbox "XA" [checked]:
+                    - generic: XA
+                - generic:
+                  - checkbox "CP" [checked]:
+                    - generic: CP
+                - generic:
+                  - checkbox "NM" [checked]:
+                    - generic: NM
+                - generic:
+                  - checkbox "ES" [checked]:
+                    - generic: ES
+                - generic:
+                  - checkbox "EEG" [checked]:
+                    - generic: EEG
+                - generic:
+                  - checkbox "ECG" [checked]:
+                    - generic: ECG
+                - generic:
+                  - checkbox "BMD" [checked]:
+                    - generic: BMD
+                - button " Filtrar":
+                  - generic: 
+                  - text: Filtrar
+          - button "" [ref=f7e64] [cursor=pointer]:
+            - generic [ref=f7e65]: 
+          - button "" [ref=f7e66] [cursor=pointer]:
+            - generic [ref=f7e67]: 
+          - button "Assinados" [ref=f7e68] [cursor=pointer]: Assinados
+        - listitem [ref=f7e69]:
+          - generic [ref=f7e70]:
+            - searchbox "Data exame" [ref=f7e71]
+            - generic [ref=f7e73] [cursor=pointer]: 
+          - paragraph [ref=f7e74]:
+            - generic [ref=f7e75] [cursor=pointer]: 24h
+          - paragraph [ref=f7e76]:
+            - generic [ref=f7e77] [cursor=pointer]: 48h
+          - paragraph [ref=f7e78]:
+            - generic [ref=f7e79] [cursor=pointer]: 7 Dias
+          - paragraph [ref=f7e80]:
+            - generic [ref=f7e81] [cursor=pointer]: 30 Dias
+          - button "" [ref=f7e82] [cursor=pointer]:
+            - generic [ref=f7e83]: 
+          - button "" [ref=f7e84] [cursor=pointer]:
+            - generic [ref=f7e85]: 
+        - listitem [ref=f7e86]:
+          - textbox "Nome do Pet" [ref=f7e88]
+          - textbox "Nome Tutor" [ref=f7e90]
+        - listitem [ref=f7e91]:
+          - button [ref=f7e92] [cursor=pointer]:
+            - generic [ref=f7e93]: 
+          - button " " [ref=f7e94] [cursor=pointer]:
+            - generic [ref=f7e95]: 
+            - generic [ref=f7e96]: 
+          - button "" [ref=f7e97] [cursor=pointer]:
+            - generic [ref=f7e98]: 
+          - button "Últimos exames assinados por mim" [ref=f7e99] [cursor=pointer]:
+            - generic [ref=f7e100]: 
+          - button "Adicionar exame manualmente" [ref=f7e101] [cursor=pointer]:
+            - generic [ref=f7e102]: 
+          - button "Cadastrar CPFs" [ref=f7e103] [cursor=pointer]:
+            - generic [ref=f7e104]: 
+        - listitem [ref=f7e105]:
+          - button "Expandir pesquisa avançada" [ref=f7e106] [cursor=pointer]:
+            - generic [ref=f7e107]: 
+  - table [ref=f7e115]:
+    - rowgroup [ref=f7e116]:
+      - row "Selecionar todos os exames M S I Pet / Tutor Estudo Data exame Prioridade Médico Unidade Status Img Ações" [ref=f7e210]:
+        - columnheader "Selecionar todos os exames" [ref=f7e118]:
+          - checkbox "Selecionar todos os exames" [ref=f7e119] [cursor=pointer]
+        - columnheader "M" [ref=f7e122]
+        - columnheader "S" [ref=f7e123]
+        - columnheader "I" [ref=f7e124]
+        - columnheader "Pet / Tutor" [ref=f7e125]
+        - columnheader "Estudo" [ref=f7e126]
+        - columnheader "Data exame" [ref=f7e127]
+        - columnheader "Prioridade" [ref=f7e128]
+        - columnheader "Médico" [ref=f7e130]
+        - columnheader "Unidade" [ref=f7e131]
+        - columnheader "Status" [ref=f7e132]
+        - columnheader "Img" [ref=f7e133]
+        - columnheader "Ações" [ref=f7e134]
+    - rowgroup [ref=f7e135]:
+      - row "Mark all checkboxes checkbox--smooth OT 30 Julios Giraya tc rabinho 31/07 15:26 Recebido 5 h Rotina diego dev GAMMA VET Assinado default default default 8 default default Choose File default" [ref=f7e211]:
+        - cell "Mark all checkboxes checkbox--smooth" [ref=f7e212]:
+          - checkbox "Mark all checkboxes checkbox--smooth" [ref=f7e213] [cursor=pointer]
+        - cell "OT" [ref=f7e216]
+        - cell [ref=f7e217]:
+          - generic [ref=f7e218]: 
+        - cell "30" [ref=f7e219]
+        - cell "Julios Giraya" [ref=f7e220]:
+          - button "Julios Giraya" [ref=f7e221] [cursor=pointer]:
+            - generic "Julios" [ref=f7e222]
+            - generic "Giraya" [ref=f7e223]
+        - cell "tc rabinho" [ref=f7e224]:
+          - button "tc rabinho" [ref=f7e225] [cursor=pointer]
+        - cell "31/07 15:26 Recebido 5 h" [ref=f7e226]:
+          - text: 31/07 15:26
+          - generic "31/07/26 15:26" [ref=f7e227]:
+            - paragraph [ref=f7e228]:
+              - text: Recebido
+              - time [ref=f7e229]: 5 h
+        - cell "Rotina" [ref=f7e230]:
+          - button "Rotina" [ref=f7e232] [cursor=pointer]:
+            - paragraph [ref=f7e233]: Rotina
+        - cell "diego dev" [ref=f7e234]:
+          - button "diego dev" [ref=f7e235] [cursor=pointer]
+        - cell "GAMMA VET" [ref=f7e236]:
+          - img "GAMMA VET" [ref=f7e237]
+        - cell "Assinado" [ref=f7e238]:
+          - strong [ref=f7e240]: Assinado
+        - cell "0 séries com 0 imagens" [ref=f7e241]
+        - cell "default default default 8 default default Choose File default" [ref=f7e242]:
+          - generic "Abrir visualizador Web" [ref=f7e243]:
+            - button "default" [ref=f7e245] [cursor=pointer]:
+              - generic [ref=f7e246]: 
+          - generic [ref=f7e247]:
+            - button "default" [ref=f7e248] [cursor=pointer]:
+              - generic [ref=f7e249]: 
+            - list
+          - button "default" [ref=f7e250] [cursor=pointer]:
+            - generic [ref=f7e251]: 
+          - text:  
+          - generic [ref=f7e252]:
+            - generic [ref=f7e253]: "8"
+            - link "default" [ref=f7e254] [cursor=pointer]:
+              - /url: /laudopdf/41668
+              - generic [ref=f7e255]: 
+          - button "default" [ref=f7e256] [cursor=pointer]:
+            - generic [ref=f7e257]: 
+          - generic "Inserir comentário" [ref=f7e258]:
+            - button [ref=f7e260] [cursor=pointer]:  * ▼ 
+          - button "Choose File" [ref=f7e262] [cursor=pointer]:
+            - generic [ref=f7e263]: 
+            - button "Choose File" [ref=f7e264]
+          - generic "Abrir mais opções" [ref=f7e265]:
+            - button "default" [ref=f7e266] [cursor=pointer]:
+              - generic [ref=f7e267]: 
+      - row "Mark all checkboxes checkbox--smooth OT 22 teste impressao 2 zen tc patinha 31/07 16:15 Recebido 4 h Rotina diego dev GAMMA VET Assinado default default default 2 default default Choose File default" [ref=f7e327]:
+        - cell "Mark all checkboxes checkbox--smooth" [ref=f7e269]:
+          - checkbox "Mark all checkboxes checkbox--smooth" [ref=f7e270] [cursor=pointer]
+        - cell "OT" [ref=f7e273]
+        - cell [ref=f7e274]:
+          - generic [ref=f7e275]: 
+        - cell "22" [ref=f7e276]
+        - cell "teste impressao 2 zen" [ref=f7e277]:
+          - button "teste impressao 2 zen" [ref=f7e278] [cursor=pointer]:
+            - generic "teste impressao 2" [ref=f7e279]
+            - generic "zen" [ref=f7e280]
+        - cell "tc patinha" [ref=f7e281]:
+          - button "tc patinha" [ref=f7e282] [cursor=pointer]
+        - cell "31/07 16:15 Recebido 4 h" [ref=f7e283]:
+          - text: 31/07 16:15
+          - generic "31/07/26 16:15" [ref=f7e284]:
+            - paragraph [ref=f7e285]:
+              - text: Recebido
+              - time [ref=f7e286]: 4 h
+        - cell "Rotina" [ref=f7e287]:
+          - button "Rotina" [ref=f7e289] [cursor=pointer]:
+            - paragraph [ref=f7e290]: Rotina
+        - cell "diego dev" [ref=f7e291]:
+          - button "diego dev" [ref=f7e292] [cursor=pointer]
+        - cell "GAMMA VET" [ref=f7e293]:
+          - img "GAMMA VET" [ref=f7e294]
+        - cell "Assinado" [ref=f7e295]:
+          - strong [ref=f7e297]: Assinado
+        - cell "0 séries com 0 imagens" [ref=f7e298]
+        - cell "default default default 2 default default Choose File default" [ref=f7e328]:
+          - generic "Abrir visualizador Web" [ref=f7e300]:
+            - button "default" [ref=f7e302] [cursor=pointer]:
+              - generic [ref=f7e303]: 
+          - generic [ref=f7e304]:
+            - button "default" [ref=f7e305] [cursor=pointer]:
+              - generic [ref=f7e306]: 
+            - list
+          - button "default" [ref=f7e307] [cursor=pointer]:
+            - generic [ref=f7e308]: 
+          - text:  
+          - generic [ref=f7e309]:
+            - generic [ref=f7e310]: "2"
+            - link "default" [active] [ref=f7e311] [cursor=pointer]:
+              - /url: /laudopdf/41669
+              - generic [ref=f7e312]: 
+          - button "default" [ref=f7e313] [cursor=pointer]:
+            - generic [ref=f7e314]: 
+          - generic "Inserir comentário" [ref=f7e315]:
+            - button [ref=f7e317] [cursor=pointer]:  * ▼ 
+          - button "Choose File" [ref=f7e319] [cursor=pointer]:
+            - generic [ref=f7e320]: 
+            - button "Choose File" [ref=f7e321]
+          - generic "Abrir mais opções" [ref=f7e322]:
+            - button "default" [ref=f7e323] [cursor=pointer]:
+              - generic [ref=f7e324]: 
+    - rowgroup [ref=f7e195]:
+      - row "Mostrando de 1 à 2 de 2 Registros" [ref=f7e325]:
+        - cell "Mostrando de 1 à 2 de 2 Registros" [ref=f7e326]:
+          - generic [ref=f7e198]:
+            - generic [ref=f7e199]:
+              - generic [ref=f7e200]: Mostrando de 1 à 2 de 2 Registros
+              - menu [ref=f7e201]:
+                - menuitem "<":
+                  - link "<":
+                    - /url: ""
+                - menuitem "1":
+                  - link "1" [ref=f7e202]:
+                    - /url: ""
+                - menuitem ">":
+                  - link ">":
+                    - /url: ""
+            - 'listbox "{{ ''REGISTRO_POR_PAGINA'' | translate }}: 10" [ref=f7e204]':
+              - generic [ref=f7e205]:
+                - generic [ref=f7e208]: "10"
+                - generic [ref=f7e209]: ▼
+  - text:    

@@ -1,0 +1,91 @@
+- generic [ref=f37e3]:
+  - dialog "Persisted content in Portuguese" [ref=f37e4]:
+    - generic [ref=f37e5]:
+      - generic [ref=f37e6]: Interface language
+      - heading "Persisted content in Portuguese" [level=2] [ref=f37e7]
+      - paragraph [ref=f37e8]: Persisted platform data (careers, tracks, descriptions) is only available in Portuguese for now. This mismatch will be resolved soon.
+      - button "Got it" [ref=f37e10] [cursor=pointer]
+  - button "Mensagens" [ref=f37e12] [cursor=pointer]: 🔔
+  - generic [ref=f37e13]:
+    - complementary "Side menu" [ref=f37e14]:
+      - generic [ref=f37e15]:
+        - generic [ref=f37e16]:
+          - generic [ref=f37e17]: GR
+          - button "Pin menu" [ref=f37e18] [cursor=pointer]
+        - navigation "Pages":
+          - link "Home":
+            - /url: /#conteudo
+          - link "About":
+            - /url: /about
+          - link "Pricing":
+            - /url: /pricing
+        - navigation "Authenticated areas":
+          - generic: Your workspace
+          - link "My dashboard":
+            - /url: /dashboard/personal
+          - link "Roadmap":
+            - /url: /dashboard/roadmap
+          - link "Jobs":
+            - /url: /dashboard/jobs
+          - link "My week":
+            - /url: /dashboard/weekly-plan
+          - link "Settings":
+            - /url: /dashboard/settings
+          - button "Sign out": Sign out
+        - region "Weather & clock":
+          - generic:
+            - generic: 08:45 PM
+            - generic: Fri, Jul 17
+            - generic: 16°C · wind 9 km/h · code 0
+        - region "Preferences":
+          - generic:
+            - generic: Theme
+            - generic:
+              - combobox:
+                - option "Light" [selected]
+                - option "Dark"
+            - generic: Language
+            - generic:
+              - combobox:
+                - option "Portuguese"
+                - option "English" [selected]
+                - option "Spanish"
+                - option "German"
+        - region "Social networks":
+          - link "GitHub":
+            - /url: https://github.com/
+            - text: GH
+          - link "LinkedIn":
+            - /url: https://www.linkedin.com/
+            - text: in
+          - link "Instagram":
+            - /url: https://www.instagram.com/
+            - text: IG
+          - link "X":
+            - /url: https://x.com/
+    - main [ref=f37e20]:
+      - generic [ref=f37e21]:
+        - generic [ref=f37e22]:
+          - generic [ref=f37e23]: workspace · career graph
+          - heading "Journey history" [level=1] [ref=f37e24]
+          - paragraph [ref=f37e25]: Milestones and achievements recorded on the platform.
+        - link "Export PDF" [ref=f37e27] [cursor=pointer]:
+          - /url: /api/roadmap/history/export/pdf
+      - navigation [ref=f37e28]:
+        - link "Overview" [ref=f37e29] [cursor=pointer]:
+          - /url: /dashboard/personal
+        - link "Mapa" [ref=f37e30] [cursor=pointer]:
+          - /url: /dashboard/roadmap
+        - link "Progresso" [ref=f37e31] [cursor=pointer]:
+          - /url: /dashboard/roadmap/progress
+        - link "Histórico" [ref=f37e32] [cursor=pointer]:
+          - /url: /dashboard/roadmap/history
+        - link "Jobs" [ref=f37e33] [cursor=pointer]:
+          - /url: /dashboard/jobs
+        - link "My week" [ref=f37e34] [cursor=pointer]:
+          - /url: /dashboard/weekly-plan
+      - list [ref=f37e35]:
+        - listitem [ref=f37e36]:
+          - time [ref=f37e37]: 17/07/2026 20:45
+          - strong [ref=f37e38]: Career goal updated
+          - paragraph [ref=f37e39]: javascript
